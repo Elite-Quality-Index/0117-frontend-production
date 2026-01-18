@@ -1,0 +1,3928 @@
+{
+  "AFG": {
+    "country": "AFG",
+    "country_name": "Afghanistan",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 137
+      },
+      {
+        "year": "2022",
+        "rank": 142
+      },
+      {
+        "year": "2023",
+        "rank": 147
+      },
+      {
+        "year": "2024",
+        "rank": 147
+      },
+      {
+        "year": "2025",
+        "rank": 151
+      }
+    ]
+  },
+  "ALB": {
+    "country": "ALB",
+    "country_name": "Albania",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 77
+      },
+      {
+        "year": "2022",
+        "rank": 92
+      },
+      {
+        "year": "2023",
+        "rank": 74
+      },
+      {
+        "year": "2024",
+        "rank": 74
+      },
+      {
+        "year": "2025",
+        "rank": 81
+      }
+    ]
+  },
+  "DZA": {
+    "country": "DZA",
+    "country_name": "Algeria",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 134
+      },
+      {
+        "year": "2022",
+        "rank": 140
+      },
+      {
+        "year": "2023",
+        "rank": 116
+      },
+      {
+        "year": "2024",
+        "rank": 116
+      },
+      {
+        "year": "2025",
+        "rank": 123
+      }
+    ]
+  },
+  "AGO": {
+    "country": "AGO",
+    "country_name": "Angola",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 143
+      },
+      {
+        "year": "2022",
+        "rank": 138
+      },
+      {
+        "year": "2023",
+        "rank": 139
+      },
+      {
+        "year": "2024",
+        "rank": 139
+      },
+      {
+        "year": "2025",
+        "rank": 142
+      }
+    ]
+  },
+  "ARG": {
+    "country": "ARG",
+    "country_name": "Argentina",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 116
+      },
+      {
+        "year": "2022",
+        "rank": 91
+      },
+      {
+        "year": "2023",
+        "rank": 70
+      },
+      {
+        "year": "2024",
+        "rank": 70
+      },
+      {
+        "year": "2025",
+        "rank": 86
+      }
+    ]
+  },
+  "ARM": {
+    "country": "ARM",
+    "country_name": "Armenia",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 99
+      },
+      {
+        "year": "2022",
+        "rank": 103
+      },
+      {
+        "year": "2023",
+        "rank": 49
+      },
+      {
+        "year": "2024",
+        "rank": 49
+      },
+      {
+        "year": "2025",
+        "rank": 51
+      }
+    ]
+  },
+  "AUS": {
+    "country": "AUS",
+    "country_name": "Australia",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 9
+      },
+      {
+        "year": "2022",
+        "rank": 3
+      },
+      {
+        "year": "2023",
+        "rank": 13
+      },
+      {
+        "year": "2024",
+        "rank": 13
+      },
+      {
+        "year": "2025",
+        "rank": 10
+      }
+    ]
+  },
+  "AUT": {
+    "country": "AUT",
+    "country_name": "Austria",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 19
+      },
+      {
+        "year": "2022",
+        "rank": 17
+      },
+      {
+        "year": "2023",
+        "rank": 15
+      },
+      {
+        "year": "2024",
+        "rank": 15
+      },
+      {
+        "year": "2025",
+        "rank": 17
+      }
+    ]
+  },
+  "AZE": {
+    "country": "AZE",
+    "country_name": "Azerbaijan",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 42
+      },
+      {
+        "year": "2022",
+        "rank": 52
+      },
+      {
+        "year": "2023",
+        "rank": 66
+      },
+      {
+        "year": "2024",
+        "rank": 66
+      },
+      {
+        "year": "2025",
+        "rank": 62
+      }
+    ]
+  },
+  "BHR": {
+    "country": "BHR",
+    "country_name": "Bahrain",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 34
+      },
+      {
+        "year": "2022",
+        "rank": 21
+      },
+      {
+        "year": "2023",
+        "rank": 29
+      },
+      {
+        "year": "2024",
+        "rank": 29
+      },
+      {
+        "year": "2025",
+        "rank": 25
+      }
+    ]
+  },
+  "BGD": {
+    "country": "BGD",
+    "country_name": "Bangladesh",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 126
+      },
+      {
+        "year": "2022",
+        "rank": 100
+      },
+      {
+        "year": "2023",
+        "rank": 55
+      },
+      {
+        "year": "2024",
+        "rank": 55
+      },
+      {
+        "year": "2025",
+        "rank": 59
+      }
+    ]
+  },
+  "BLR": {
+    "country": "BLR",
+    "country_name": "Belarus",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 51
+      },
+      {
+        "year": "2022",
+        "rank": 54
+      },
+      {
+        "year": "2023",
+        "rank": 93
+      },
+      {
+        "year": "2024",
+        "rank": 93
+      },
+      {
+        "year": "2025",
+        "rank": 93
+      }
+    ]
+  },
+  "BEL": {
+    "country": "BEL",
+    "country_name": "Belgium",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 32
+      },
+      {
+        "year": "2022",
+        "rank": 23
+      },
+      {
+        "year": "2023",
+        "rank": 22
+      },
+      {
+        "year": "2024",
+        "rank": 22
+      },
+      {
+        "year": "2025",
+        "rank": 24
+      }
+    ]
+  },
+  "BEN": {
+    "country": "BEN",
+    "country_name": "Benin",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 58
+      },
+      {
+        "year": "2022",
+        "rank": 77
+      },
+      {
+        "year": "2023",
+        "rank": 82
+      },
+      {
+        "year": "2024",
+        "rank": 82
+      },
+      {
+        "year": "2025",
+        "rank": 74
+      }
+    ]
+  },
+  "BOL": {
+    "country": "BOL",
+    "country_name": "Bolivia",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 97
+      },
+      {
+        "year": "2022",
+        "rank": 101
+      },
+      {
+        "year": "2023",
+        "rank": 85
+      },
+      {
+        "year": "2024",
+        "rank": 85
+      },
+      {
+        "year": "2025",
+        "rank": 81
+      }
+    ]
+  },
+  "BIH": {
+    "country": "BIH",
+    "country_name": "Bosnia and Herzegovina",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 114
+      },
+      {
+        "year": "2022",
+        "rank": 131
+      },
+      {
+        "year": "2023",
+        "rank": 128
+      },
+      {
+        "year": "2024",
+        "rank": 128
+      },
+      {
+        "year": "2025",
+        "rank": 119
+      }
+    ]
+  },
+  "BWA": {
+    "country": "BWA",
+    "country_name": "Botswana",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 56
+      },
+      {
+        "year": "2022",
+        "rank": 69
+      },
+      {
+        "year": "2023",
+        "rank": 81
+      },
+      {
+        "year": "2024",
+        "rank": 81
+      },
+      {
+        "year": "2025",
+        "rank": 76
+      }
+    ]
+  },
+  "BRA": {
+    "country": "BRA",
+    "country_name": "Brazil",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 86
+      },
+      {
+        "year": "2022",
+        "rank": 81
+      },
+      {
+        "year": "2023",
+        "rank": 64
+      },
+      {
+        "year": "2024",
+        "rank": 64
+      },
+      {
+        "year": "2025",
+        "rank": 69
+      }
+    ]
+  },
+  "BGR": {
+    "country": "BGR",
+    "country_name": "Bulgaria",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 49
+      },
+      {
+        "year": "2022",
+        "rank": 45
+      },
+      {
+        "year": "2023",
+        "rank": 39
+      },
+      {
+        "year": "2024",
+        "rank": 39
+      },
+      {
+        "year": "2025",
+        "rank": 37
+      }
+    ]
+  },
+  "BFA": {
+    "country": "BFA",
+    "country_name": "Burkina Faso",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 79
+      },
+      {
+        "year": "2022",
+        "rank": 85
+      },
+      {
+        "year": "2023",
+        "rank": 127
+      },
+      {
+        "year": "2024",
+        "rank": 127
+      },
+      {
+        "year": "2025",
+        "rank": 131
+      }
+    ]
+  },
+  "BDI": {
+    "country": "BDI",
+    "country_name": "Burundi",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 104
+      },
+      {
+        "year": "2022",
+        "rank": 104
+      },
+      {
+        "year": "2023",
+        "rank": 111
+      },
+      {
+        "year": "2024",
+        "rank": 111
+      },
+      {
+        "year": "2025",
+        "rank": 110
+      }
+    ]
+  },
+  "KHM": {
+    "country": "KHM",
+    "country_name": "Cambodia",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 73
+      },
+      {
+        "year": "2022",
+        "rank": 58
+      },
+      {
+        "year": "2023",
+        "rank": 67
+      },
+      {
+        "year": "2024",
+        "rank": 67
+      },
+      {
+        "year": "2025",
+        "rank": 53
+      }
+    ]
+  },
+  "CMR": {
+    "country": "CMR",
+    "country_name": "Cameroon",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 105
+      },
+      {
+        "year": "2022",
+        "rank": 114
+      },
+      {
+        "year": "2023",
+        "rank": 126
+      },
+      {
+        "year": "2024",
+        "rank": 126
+      },
+      {
+        "year": "2025",
+        "rank": 124
+      }
+    ]
+  },
+  "CAN": {
+    "country": "CAN",
+    "country_name": "Canada",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 11
+      },
+      {
+        "year": "2022",
+        "rank": 7
+      },
+      {
+        "year": "2023",
+        "rank": 12
+      },
+      {
+        "year": "2024",
+        "rank": 12
+      },
+      {
+        "year": "2025",
+        "rank": 13
+      }
+    ]
+  },
+  "CAF": {
+    "country": "CAF",
+    "country_name": "Central African Republic",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 128
+      },
+      {
+        "year": "2022",
+        "rank": 135
+      },
+      {
+        "year": "2023",
+        "rank": 136
+      },
+      {
+        "year": "2024",
+        "rank": 136
+      },
+      {
+        "year": "2025",
+        "rank": 136
+      }
+    ]
+  },
+  "TCD": {
+    "country": "TCD",
+    "country_name": "Chad",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 129
+      },
+      {
+        "year": "2022",
+        "rank": 128
+      },
+      {
+        "year": "2023",
+        "rank": 143
+      },
+      {
+        "year": "2024",
+        "rank": 143
+      },
+      {
+        "year": "2025",
+        "rank": 139
+      }
+    ]
+  },
+  "CHL": {
+    "country": "CHL",
+    "country_name": "Chile",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 41
+      },
+      {
+        "year": "2022",
+        "rank": 41
+      },
+      {
+        "year": "2023",
+        "rank": 30
+      },
+      {
+        "year": "2024",
+        "rank": 30
+      },
+      {
+        "year": "2025",
+        "rank": 32
+      }
+    ]
+  },
+  "CHN": {
+    "country": "CHN",
+    "country_name": "China",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 26
+      },
+      {
+        "year": "2022",
+        "rank": 27
+      },
+      {
+        "year": "2023",
+        "rank": 21
+      },
+      {
+        "year": "2024",
+        "rank": 21
+      },
+      {
+        "year": "2025",
+        "rank": 19
+      }
+    ]
+  },
+  "COL": {
+    "country": "COL",
+    "country_name": "Colombia",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 71
+      },
+      {
+        "year": "2022",
+        "rank": 80
+      },
+      {
+        "year": "2023",
+        "rank": 61
+      },
+      {
+        "year": "2024",
+        "rank": 61
+      },
+      {
+        "year": "2025",
+        "rank": 66
+      }
+    ]
+  },
+  "COD": {
+    "country": "COD",
+    "country_name": "Congo, Dem. Rep.",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 124
+      },
+      {
+        "year": "2022",
+        "rank": 132
+      },
+      {
+        "year": "2023",
+        "rank": 132
+      },
+      {
+        "year": "2024",
+        "rank": 132
+      },
+      {
+        "year": "2025",
+        "rank": 124
+      }
+    ]
+  },
+  "COG": {
+    "country": "COG",
+    "country_name": "Congo, Rep.",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 112
+      },
+      {
+        "year": "2022",
+        "rank": 119
+      },
+      {
+        "year": "2023",
+        "rank": 135
+      },
+      {
+        "year": "2024",
+        "rank": 135
+      },
+      {
+        "year": "2025",
+        "rank": 137
+      }
+    ]
+  },
+  "CRI": {
+    "country": "CRI",
+    "country_name": "Costa Rica",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 57
+      },
+      {
+        "year": "2022",
+        "rank": 57
+      },
+      {
+        "year": "2023",
+        "rank": 56
+      },
+      {
+        "year": "2024",
+        "rank": 56
+      },
+      {
+        "year": "2025",
+        "rank": 61
+      }
+    ]
+  },
+  "HRV": {
+    "country": "HRV",
+    "country_name": "Croatia",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 43
+      },
+      {
+        "year": "2022",
+        "rank": 48
+      },
+      {
+        "year": "2023",
+        "rank": 46
+      },
+      {
+        "year": "2024",
+        "rank": 46
+      },
+      {
+        "year": "2025",
+        "rank": 52
+      }
+    ]
+  },
+  "CUB": {
+    "country": "CUB",
+    "country_name": "Cuba",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 53
+      },
+      {
+        "year": "2022",
+        "rank": 50
+      },
+      {
+        "year": "2023",
+        "rank": 83
+      },
+      {
+        "year": "2024",
+        "rank": 83
+      },
+      {
+        "year": "2025",
+        "rank": 89
+      }
+    ]
+  },
+  "CYP": {
+    "country": "CYP",
+    "country_name": "Cyprus",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 31
+      },
+      {
+        "year": "2022",
+        "rank": 32
+      },
+      {
+        "year": "2023",
+        "rank": 34
+      },
+      {
+        "year": "2024",
+        "rank": 34
+      },
+      {
+        "year": "2025",
+        "rank": 28
+      }
+    ]
+  },
+  "CZE": {
+    "country": "CZE",
+    "country_name": "Czech Republic",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 22
+      },
+      {
+        "year": "2022",
+        "rank": 26
+      },
+      {
+        "year": "2023",
+        "rank": 23
+      },
+      {
+        "year": "2024",
+        "rank": 23
+      },
+      {
+        "year": "2025",
+        "rank": 21
+      }
+    ]
+  },
+  "CIV": {
+    "country": "CIV",
+    "country_name": "Côte d'Ivoire",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 81
+      },
+      {
+        "year": "2022",
+        "rank": 72
+      },
+      {
+        "year": "2023",
+        "rank": 73
+      },
+      {
+        "year": "2024",
+        "rank": 73
+      },
+      {
+        "year": "2025",
+        "rank": 75
+      }
+    ]
+  },
+  "DNK": {
+    "country": "DNK",
+    "country_name": "Denmark",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 10
+      },
+      {
+        "year": "2022",
+        "rank": 12
+      },
+      {
+        "year": "2023",
+        "rank": 10
+      },
+      {
+        "year": "2024",
+        "rank": 10
+      },
+      {
+        "year": "2025",
+        "rank": 15
+      }
+    ]
+  },
+  "DOM": {
+    "country": "DOM",
+    "country_name": "Dominican Republic",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 74
+      },
+      {
+        "year": "2022",
+        "rank": 53
+      },
+      {
+        "year": "2023",
+        "rank": 57
+      },
+      {
+        "year": "2024",
+        "rank": 57
+      },
+      {
+        "year": "2025",
+        "rank": 54
+      }
+    ]
+  },
+  "ECU": {
+    "country": "ECU",
+    "country_name": "Ecuador",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 91
+      },
+      {
+        "year": "2022",
+        "rank": 83
+      },
+      {
+        "year": "2023",
+        "rank": 68
+      },
+      {
+        "year": "2024",
+        "rank": 68
+      },
+      {
+        "year": "2025",
+        "rank": 79
+      }
+    ]
+  },
+  "EGY": {
+    "country": "EGY",
+    "country_name": "Egypt, Arab Rep.",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 122
+      },
+      {
+        "year": "2022",
+        "rank": 113
+      },
+      {
+        "year": "2023",
+        "rank": 84
+      },
+      {
+        "year": "2024",
+        "rank": 84
+      },
+      {
+        "year": "2025",
+        "rank": 102
+      }
+    ]
+  },
+  "SLV": {
+    "country": "SLV",
+    "country_name": "El Salvador",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 130
+      },
+      {
+        "year": "2022",
+        "rank": 95
+      },
+      {
+        "year": "2023",
+        "rank": 115
+      },
+      {
+        "year": "2024",
+        "rank": 115
+      },
+      {
+        "year": "2025",
+        "rank": 107
+      }
+    ]
+  },
+  "GNQ": {
+    "country": "GNQ",
+    "country_name": "Equatorial Guinea",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 133
+      },
+      {
+        "year": "2022",
+        "rank": 127
+      },
+      {
+        "year": "2023",
+        "rank": 130
+      },
+      {
+        "year": "2024",
+        "rank": 130
+      },
+      {
+        "year": "2025",
+        "rank": 115
+      }
+    ]
+  },
+  "EST": {
+    "country": "EST",
+    "country_name": "Estonia",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 12
+      },
+      {
+        "year": "2022",
+        "rank": 10
+      },
+      {
+        "year": "2023",
+        "rank": 20
+      },
+      {
+        "year": "2024",
+        "rank": 20
+      },
+      {
+        "year": "2025",
+        "rank": 26
+      }
+    ]
+  },
+  "SWZ": {
+    "country": "SWZ",
+    "country_name": "Eswatini",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 108
+      },
+      {
+        "year": "2022",
+        "rank": 139
+      },
+      {
+        "year": "2023",
+        "rank": 142
+      },
+      {
+        "year": "2024",
+        "rank": 142
+      },
+      {
+        "year": "2025",
+        "rank": 145
+      }
+    ]
+  },
+  "ETH": {
+    "country": "ETH",
+    "country_name": "Ethiopia",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 119
+      },
+      {
+        "year": "2022",
+        "rank": 71
+      },
+      {
+        "year": "2023",
+        "rank": 119
+      },
+      {
+        "year": "2024",
+        "rank": 119
+      },
+      {
+        "year": "2025",
+        "rank": 110
+      }
+    ]
+  },
+  "FIN": {
+    "country": "FIN",
+    "country_name": "Finland",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 14
+      },
+      {
+        "year": "2022",
+        "rank": 16
+      },
+      {
+        "year": "2023",
+        "rank": 14
+      },
+      {
+        "year": "2024",
+        "rank": 14
+      },
+      {
+        "year": "2025",
+        "rank": 18
+      }
+    ]
+  },
+  "FRA": {
+    "country": "FRA",
+    "country_name": "France",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 23
+      },
+      {
+        "year": "2022",
+        "rank": 24
+      },
+      {
+        "year": "2023",
+        "rank": 19
+      },
+      {
+        "year": "2024",
+        "rank": 19
+      },
+      {
+        "year": "2025",
+        "rank": 21
+      }
+    ]
+  },
+  "GAB": {
+    "country": "GAB",
+    "country_name": "Gabon",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 141
+      },
+      {
+        "year": "2022",
+        "rank": 141
+      },
+      {
+        "year": "2023",
+        "rank": 133
+      },
+      {
+        "year": "2024",
+        "rank": 133
+      },
+      {
+        "year": "2025",
+        "rank": 139
+      }
+    ]
+  },
+  "GMB": {
+    "country": "GMB",
+    "country_name": "Gambia, The",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 131
+      },
+      {
+        "year": "2022",
+        "rank": 124
+      },
+      {
+        "year": "2023",
+        "rank": 78
+      },
+      {
+        "year": "2024",
+        "rank": 78
+      },
+      {
+        "year": "2025",
+        "rank": 95
+      }
+    ]
+  },
+  "GEO": {
+    "country": "GEO",
+    "country_name": "Georgia",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 72
+      },
+      {
+        "year": "2022",
+        "rank": 84
+      },
+      {
+        "year": "2023",
+        "rank": 77
+      },
+      {
+        "year": "2024",
+        "rank": 77
+      },
+      {
+        "year": "2025",
+        "rank": 63
+      }
+    ]
+  },
+  "DEU": {
+    "country": "DEU",
+    "country_name": "Germany",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 15
+      },
+      {
+        "year": "2022",
+        "rank": 11
+      },
+      {
+        "year": "2023",
+        "rank": 8
+      },
+      {
+        "year": "2024",
+        "rank": 8
+      },
+      {
+        "year": "2025",
+        "rank": 7
+      }
+    ]
+  },
+  "GHA": {
+    "country": "GHA",
+    "country_name": "Ghana",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 63
+      },
+      {
+        "year": "2022",
+        "rank": 60
+      },
+      {
+        "year": "2023",
+        "rank": 69
+      },
+      {
+        "year": "2024",
+        "rank": 69
+      },
+      {
+        "year": "2025",
+        "rank": 76
+      }
+    ]
+  },
+  "GRC": {
+    "country": "GRC",
+    "country_name": "Greece",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 47
+      },
+      {
+        "year": "2022",
+        "rank": 59
+      },
+      {
+        "year": "2023",
+        "rank": 44
+      },
+      {
+        "year": "2024",
+        "rank": 44
+      },
+      {
+        "year": "2025",
+        "rank": 46
+      }
+    ]
+  },
+  "GTM": {
+    "country": "GTM",
+    "country_name": "Guatemala",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 109
+      },
+      {
+        "year": "2022",
+        "rank": 94
+      },
+      {
+        "year": "2023",
+        "rank": 123
+      },
+      {
+        "year": "2024",
+        "rank": 123
+      },
+      {
+        "year": "2025",
+        "rank": 109
+      }
+    ]
+  },
+  "GIN": {
+    "country": "GIN",
+    "country_name": "Guinea",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 96
+      },
+      {
+        "year": "2022",
+        "rank": 102
+      },
+      {
+        "year": "2023",
+        "rank": 95
+      },
+      {
+        "year": "2024",
+        "rank": 95
+      },
+      {
+        "year": "2025",
+        "rank": 115
+      }
+    ]
+  },
+  "GNB": {
+    "country": "GNB",
+    "country_name": "Guinea-Bissau",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 78
+      },
+      {
+        "year": "2022",
+        "rank": 106
+      },
+      {
+        "year": "2023",
+        "rank": 109
+      },
+      {
+        "year": "2024",
+        "rank": 109
+      },
+      {
+        "year": "2025",
+        "rank": 102
+      }
+    ]
+  },
+  "HTI": {
+    "country": "HTI",
+    "country_name": "Haiti",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 144
+      },
+      {
+        "year": "2022",
+        "rank": 146
+      },
+      {
+        "year": "2023",
+        "rank": 150
+      },
+      {
+        "year": "2024",
+        "rank": 150
+      },
+      {
+        "year": "2025",
+        "rank": 150
+      }
+    ]
+  },
+  "HND": {
+    "country": "HND",
+    "country_name": "Honduras",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 110
+      },
+      {
+        "year": "2022",
+        "rank": 105
+      },
+      {
+        "year": "2023",
+        "rank": 105
+      },
+      {
+        "year": "2024",
+        "rank": 105
+      },
+      {
+        "year": "2025",
+        "rank": 107
+      }
+    ]
+  },
+  "HUN": {
+    "country": "HUN",
+    "country_name": "Hungary",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 33
+      },
+      {
+        "year": "2022",
+        "rank": 37
+      },
+      {
+        "year": "2023",
+        "rank": 40
+      },
+      {
+        "year": "2024",
+        "rank": 40
+      },
+      {
+        "year": "2025",
+        "rank": 42
+      }
+    ]
+  },
+  "IND": {
+    "country": "IND",
+    "country_name": "India",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 118
+      },
+      {
+        "year": "2022",
+        "rank": 97
+      },
+      {
+        "year": "2023",
+        "rank": 63
+      },
+      {
+        "year": "2024",
+        "rank": 63
+      },
+      {
+        "year": "2025",
+        "rank": 60
+      }
+    ]
+  },
+  "IDN": {
+    "country": "IDN",
+    "country_name": "Indonesia",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 44
+      },
+      {
+        "year": "2022",
+        "rank": 49
+      },
+      {
+        "year": "2023",
+        "rank": 45
+      },
+      {
+        "year": "2024",
+        "rank": 45
+      },
+      {
+        "year": "2025",
+        "rank": 39
+      }
+    ]
+  },
+  "IRN": {
+    "country": "IRN",
+    "country_name": "Iran, Islamic Rep.",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 147
+      },
+      {
+        "year": "2022",
+        "rank": 145
+      },
+      {
+        "year": "2023",
+        "rank": 129
+      },
+      {
+        "year": "2024",
+        "rank": 129
+      },
+      {
+        "year": "2025",
+        "rank": 129
+      }
+    ]
+  },
+  "IRQ": {
+    "country": "IRQ",
+    "country_name": "Iraq",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 146
+      },
+      {
+        "year": "2022",
+        "rank": 149
+      },
+      {
+        "year": "2023",
+        "rank": 149
+      },
+      {
+        "year": "2024",
+        "rank": 149
+      },
+      {
+        "year": "2025",
+        "rank": 146
+      }
+    ]
+  },
+  "IRL": {
+    "country": "IRL",
+    "country_name": "Ireland",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 20
+      },
+      {
+        "year": "2022",
+        "rank": 13
+      },
+      {
+        "year": "2023",
+        "rank": 26
+      },
+      {
+        "year": "2024",
+        "rank": 26
+      },
+      {
+        "year": "2025",
+        "rank": 23
+      }
+    ]
+  },
+  "ISR": {
+    "country": "ISR",
+    "country_name": "Israel",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 7
+      },
+      {
+        "year": "2022",
+        "rank": 4
+      },
+      {
+        "year": "2023",
+        "rank": 7
+      },
+      {
+        "year": "2024",
+        "rank": 7
+      },
+      {
+        "year": "2025",
+        "rank": 14
+      }
+    ]
+  },
+  "ITA": {
+    "country": "ITA",
+    "country_name": "Italy",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 37
+      },
+      {
+        "year": "2022",
+        "rank": 40
+      },
+      {
+        "year": "2023",
+        "rank": 31
+      },
+      {
+        "year": "2024",
+        "rank": 31
+      },
+      {
+        "year": "2025",
+        "rank": 36
+      }
+    ]
+  },
+  "JAM": {
+    "country": "JAM",
+    "country_name": "Jamaica",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 88
+      },
+      {
+        "year": "2022",
+        "rank": 125
+      },
+      {
+        "year": "2023",
+        "rank": 79
+      },
+      {
+        "year": "2024",
+        "rank": 79
+      },
+      {
+        "year": "2025",
+        "rank": 79
+      }
+    ]
+  },
+  "JPN": {
+    "country": "JPN",
+    "country_name": "Japan",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 17
+      },
+      {
+        "year": "2022",
+        "rank": 18
+      },
+      {
+        "year": "2023",
+        "rank": 4
+      },
+      {
+        "year": "2024",
+        "rank": 4
+      },
+      {
+        "year": "2025",
+        "rank": 4
+      }
+    ]
+  },
+  "JOR": {
+    "country": "JOR",
+    "country_name": "Jordan",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 98
+      },
+      {
+        "year": "2022",
+        "rank": 82
+      },
+      {
+        "year": "2023",
+        "rank": 88
+      },
+      {
+        "year": "2024",
+        "rank": 88
+      },
+      {
+        "year": "2025",
+        "rank": 100
+      }
+    ]
+  },
+  "KAZ": {
+    "country": "KAZ",
+    "country_name": "Kazakhstan",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 46
+      },
+      {
+        "year": "2022",
+        "rank": 46
+      },
+      {
+        "year": "2023",
+        "rank": 60
+      },
+      {
+        "year": "2024",
+        "rank": 60
+      },
+      {
+        "year": "2025",
+        "rank": 49
+      }
+    ]
+  },
+  "KEN": {
+    "country": "KEN",
+    "country_name": "Kenya",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 66
+      },
+      {
+        "year": "2022",
+        "rank": 76
+      },
+      {
+        "year": "2023",
+        "rank": 94
+      },
+      {
+        "year": "2024",
+        "rank": 94
+      },
+      {
+        "year": "2025",
+        "rank": 105
+      }
+    ]
+  },
+  "KOR": {
+    "country": "KOR",
+    "country_name": "Korea, Rep.",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 16
+      },
+      {
+        "year": "2022",
+        "rank": 19
+      },
+      {
+        "year": "2023",
+        "rank": 6
+      },
+      {
+        "year": "2024",
+        "rank": 6
+      },
+      {
+        "year": "2025",
+        "rank": 5
+      }
+    ]
+  },
+  "KWT": {
+    "country": "KWT",
+    "country_name": "Kuwait",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 54
+      },
+      {
+        "year": "2022",
+        "rank": 62
+      },
+      {
+        "year": "2023",
+        "rank": 58
+      },
+      {
+        "year": "2024",
+        "rank": 58
+      },
+      {
+        "year": "2025",
+        "rank": 63
+      }
+    ]
+  },
+  "KGZ": {
+    "country": "KGZ",
+    "country_name": "Kyrgyz Republic",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 121
+      },
+      {
+        "year": "2022",
+        "rank": 123
+      },
+      {
+        "year": "2023",
+        "rank": 99
+      },
+      {
+        "year": "2024",
+        "rank": 99
+      },
+      {
+        "year": "2025",
+        "rank": 92
+      }
+    ]
+  },
+  "LAO": {
+    "country": "LAO",
+    "country_name": "Lao PDR",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 83
+      },
+      {
+        "year": "2022",
+        "rank": 79
+      },
+      {
+        "year": "2023",
+        "rank": 87
+      },
+      {
+        "year": "2024",
+        "rank": 87
+      },
+      {
+        "year": "2025",
+        "rank": 69
+      }
+    ]
+  },
+  "LVA": {
+    "country": "LVA",
+    "country_name": "Latvia",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 38
+      },
+      {
+        "year": "2022",
+        "rank": 39
+      },
+      {
+        "year": "2023",
+        "rank": 38
+      },
+      {
+        "year": "2024",
+        "rank": 38
+      },
+      {
+        "year": "2025",
+        "rank": 37
+      }
+    ]
+  },
+  "LBN": {
+    "country": "LBN",
+    "country_name": "Lebanon",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 136
+      },
+      {
+        "year": "2022",
+        "rank": 136
+      },
+      {
+        "year": "2023",
+        "rank": 138
+      },
+      {
+        "year": "2024",
+        "rank": 138
+      },
+      {
+        "year": "2025",
+        "rank": 135
+      }
+    ]
+  },
+  "LSO": {
+    "country": "LSO",
+    "country_name": "Lesotho",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 135
+      },
+      {
+        "year": "2022",
+        "rank": 144
+      },
+      {
+        "year": "2023",
+        "rank": 141
+      },
+      {
+        "year": "2024",
+        "rank": 141
+      },
+      {
+        "year": "2025",
+        "rank": 141
+      }
+    ]
+  },
+  "LBR": {
+    "country": "LBR",
+    "country_name": "Liberia",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 127
+      },
+      {
+        "year": "2022",
+        "rank": 74
+      },
+      {
+        "year": "2023",
+        "rank": 102
+      },
+      {
+        "year": "2024",
+        "rank": 102
+      },
+      {
+        "year": "2025",
+        "rank": 88
+      }
+    ]
+  },
+  "LBY": {
+    "country": "LBY",
+    "country_name": "Libya",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 151
+      },
+      {
+        "year": "2022",
+        "rank": 150
+      },
+      {
+        "year": "2023",
+        "rank": 145
+      },
+      {
+        "year": "2024",
+        "rank": 145
+      },
+      {
+        "year": "2025",
+        "rank": 138
+      }
+    ]
+  },
+  "LTU": {
+    "country": "LTU",
+    "country_name": "Lithuania",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 24
+      },
+      {
+        "year": "2022",
+        "rank": 28
+      },
+      {
+        "year": "2023",
+        "rank": 42
+      },
+      {
+        "year": "2024",
+        "rank": 42
+      },
+      {
+        "year": "2025",
+        "rank": 43
+      }
+    ]
+  },
+  "MDG": {
+    "country": "MDG",
+    "country_name": "Madagascar",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 95
+      },
+      {
+        "year": "2022",
+        "rank": 87
+      },
+      {
+        "year": "2023",
+        "rank": 114
+      },
+      {
+        "year": "2024",
+        "rank": 114
+      },
+      {
+        "year": "2025",
+        "rank": 106
+      }
+    ]
+  },
+  "MWI": {
+    "country": "MWI",
+    "country_name": "Malawi",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 102
+      },
+      {
+        "year": "2022",
+        "rank": 90
+      },
+      {
+        "year": "2023",
+        "rank": 118
+      },
+      {
+        "year": "2024",
+        "rank": 118
+      },
+      {
+        "year": "2025",
+        "rank": 119
+      }
+    ]
+  },
+  "MYS": {
+    "country": "MYS",
+    "country_name": "Malaysia",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 25
+      },
+      {
+        "year": "2022",
+        "rank": 33
+      },
+      {
+        "year": "2023",
+        "rank": 27
+      },
+      {
+        "year": "2024",
+        "rank": 27
+      },
+      {
+        "year": "2025",
+        "rank": 31
+      }
+    ]
+  },
+  "MLI": {
+    "country": "MLI",
+    "country_name": "Mali",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 115
+      },
+      {
+        "year": "2022",
+        "rank": 121
+      },
+      {
+        "year": "2023",
+        "rank": 112
+      },
+      {
+        "year": "2024",
+        "rank": 112
+      },
+      {
+        "year": "2025",
+        "rank": 117
+      }
+    ]
+  },
+  "MRT": {
+    "country": "MRT",
+    "country_name": "Mauritania",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 145
+      },
+      {
+        "year": "2022",
+        "rank": 143
+      },
+      {
+        "year": "2023",
+        "rank": 134
+      },
+      {
+        "year": "2024",
+        "rank": 134
+      },
+      {
+        "year": "2025",
+        "rank": 134
+      }
+    ]
+  },
+  "MUS": {
+    "country": "MUS",
+    "country_name": "Mauritius",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 50
+      },
+      {
+        "year": "2022",
+        "rank": 42
+      },
+      {
+        "year": "2023",
+        "rank": 53
+      },
+      {
+        "year": "2024",
+        "rank": 53
+      },
+      {
+        "year": "2025",
+        "rank": 55
+      }
+    ]
+  },
+  "MEX": {
+    "country": "MEX",
+    "country_name": "Mexico",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 55
+      },
+      {
+        "year": "2022",
+        "rank": 65
+      },
+      {
+        "year": "2023",
+        "rank": 52
+      },
+      {
+        "year": "2024",
+        "rank": 52
+      },
+      {
+        "year": "2025",
+        "rank": 65
+      }
+    ]
+  },
+  "MDA": {
+    "country": "MDA",
+    "country_name": "Moldova",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 69
+      },
+      {
+        "year": "2022",
+        "rank": 68
+      },
+      {
+        "year": "2023",
+        "rank": 90
+      },
+      {
+        "year": "2024",
+        "rank": 90
+      },
+      {
+        "year": "2025",
+        "rank": 69
+      }
+    ]
+  },
+  "MNG": {
+    "country": "MNG",
+    "country_name": "Mongolia",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 62
+      },
+      {
+        "year": "2022",
+        "rank": 66
+      },
+      {
+        "year": "2023",
+        "rank": 72
+      },
+      {
+        "year": "2024",
+        "rank": 72
+      },
+      {
+        "year": "2025",
+        "rank": 66
+      }
+    ]
+  },
+  "MAR": {
+    "country": "MAR",
+    "country_name": "Morocco",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 111
+      },
+      {
+        "year": "2022",
+        "rank": 129
+      },
+      {
+        "year": "2023",
+        "rank": 91
+      },
+      {
+        "year": "2024",
+        "rank": 91
+      },
+      {
+        "year": "2025",
+        "rank": 86
+      }
+    ]
+  },
+  "MOZ": {
+    "country": "MOZ",
+    "country_name": "Mozambique",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 103
+      },
+      {
+        "year": "2022",
+        "rank": 109
+      },
+      {
+        "year": "2023",
+        "rank": 101
+      },
+      {
+        "year": "2024",
+        "rank": 101
+      },
+      {
+        "year": "2025",
+        "rank": 112
+      }
+    ]
+  },
+  "MMR": {
+    "country": "MMR",
+    "country_name": "Myanmar",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 120
+      },
+      {
+        "year": "2022",
+        "rank": 110
+      },
+      {
+        "year": "2023",
+        "rank": 110
+      },
+      {
+        "year": "2024",
+        "rank": 110
+      },
+      {
+        "year": "2025",
+        "rank": 128
+      }
+    ]
+  },
+  "NAM": {
+    "country": "NAM",
+    "country_name": "Namibia",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 106
+      },
+      {
+        "year": "2022",
+        "rank": 115
+      },
+      {
+        "year": "2023",
+        "rank": 97
+      },
+      {
+        "year": "2024",
+        "rank": 97
+      },
+      {
+        "year": "2025",
+        "rank": 94
+      }
+    ]
+  },
+  "NPL": {
+    "country": "NPL",
+    "country_name": "Nepal",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 90
+      },
+      {
+        "year": "2022",
+        "rank": 112
+      },
+      {
+        "year": "2023",
+        "rank": 122
+      },
+      {
+        "year": "2024",
+        "rank": 122
+      },
+      {
+        "year": "2025",
+        "rank": 133
+      }
+    ]
+  },
+  "NLD": {
+    "country": "NLD",
+    "country_name": "Netherlands",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 4
+      },
+      {
+        "year": "2022",
+        "rank": 5
+      },
+      {
+        "year": "2023",
+        "rank": 3
+      },
+      {
+        "year": "2024",
+        "rank": 3
+      },
+      {
+        "year": "2025",
+        "rank": 9
+      }
+    ]
+  },
+  "NZL": {
+    "country": "NZL",
+    "country_name": "New Zealand",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 13
+      },
+      {
+        "year": "2022",
+        "rank": 14
+      },
+      {
+        "year": "2023",
+        "rank": 5
+      },
+      {
+        "year": "2024",
+        "rank": 5
+      },
+      {
+        "year": "2025",
+        "rank": 7
+      }
+    ]
+  },
+  "NIC": {
+    "country": "NIC",
+    "country_name": "Nicaragua",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 123
+      },
+      {
+        "year": "2022",
+        "rank": 117
+      },
+      {
+        "year": "2023",
+        "rank": 121
+      },
+      {
+        "year": "2024",
+        "rank": 121
+      },
+      {
+        "year": "2025",
+        "rank": 118
+      }
+    ]
+  },
+  "NER": {
+    "country": "NER",
+    "country_name": "Niger",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 93
+      },
+      {
+        "year": "2022",
+        "rank": 96
+      },
+      {
+        "year": "2023",
+        "rank": 96
+      },
+      {
+        "year": "2024",
+        "rank": 96
+      },
+      {
+        "year": "2025",
+        "rank": 97
+      }
+    ]
+  },
+  "NGA": {
+    "country": "NGA",
+    "country_name": "Nigeria",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 107
+      },
+      {
+        "year": "2022",
+        "rank": 137
+      },
+      {
+        "year": "2023",
+        "rank": 137
+      },
+      {
+        "year": "2024",
+        "rank": 137
+      },
+      {
+        "year": "2025",
+        "rank": 121
+      }
+    ]
+  },
+  "MKD": {
+    "country": "MKD",
+    "country_name": "North Macedonia",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 59
+      },
+      {
+        "year": "2022",
+        "rank": 89
+      },
+      {
+        "year": "2023",
+        "rank": 75
+      },
+      {
+        "year": "2024",
+        "rank": 75
+      },
+      {
+        "year": "2025",
+        "rank": 83
+      }
+    ]
+  },
+  "NOR": {
+    "country": "NOR",
+    "country_name": "Norway",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 8
+      },
+      {
+        "year": "2022",
+        "rank": 9
+      },
+      {
+        "year": "2023",
+        "rank": 17
+      },
+      {
+        "year": "2024",
+        "rank": 17
+      },
+      {
+        "year": "2025",
+        "rank": 16
+      }
+    ]
+  },
+  "OMN": {
+    "country": "OMN",
+    "country_name": "Oman",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 39
+      },
+      {
+        "year": "2022",
+        "rank": 35
+      },
+      {
+        "year": "2023",
+        "rank": 43
+      },
+      {
+        "year": "2024",
+        "rank": 43
+      },
+      {
+        "year": "2025",
+        "rank": 41
+      }
+    ]
+  },
+  "PAK": {
+    "country": "PAK",
+    "country_name": "Pakistan",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 142
+      },
+      {
+        "year": "2022",
+        "rank": 107
+      },
+      {
+        "year": "2023",
+        "rank": 131
+      },
+      {
+        "year": "2024",
+        "rank": 131
+      },
+      {
+        "year": "2025",
+        "rank": 132
+      }
+    ]
+  },
+  "PAN": {
+    "country": "PAN",
+    "country_name": "Panama",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 45
+      },
+      {
+        "year": "2022",
+        "rank": 47
+      },
+      {
+        "year": "2023",
+        "rank": 47
+      },
+      {
+        "year": "2024",
+        "rank": 47
+      },
+      {
+        "year": "2025",
+        "rank": 34
+      }
+    ]
+  },
+  "PNG": {
+    "country": "PNG",
+    "country_name": "Papua New Guinea",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 68
+      },
+      {
+        "year": "2022",
+        "rank": 98
+      },
+      {
+        "year": "2023",
+        "rank": 106
+      },
+      {
+        "year": "2024",
+        "rank": 106
+      },
+      {
+        "year": "2025",
+        "rank": 95
+      }
+    ]
+  },
+  "PRY": {
+    "country": "PRY",
+    "country_name": "Paraguay",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 84
+      },
+      {
+        "year": "2022",
+        "rank": 78
+      },
+      {
+        "year": "2023",
+        "rank": 89
+      },
+      {
+        "year": "2024",
+        "rank": 89
+      },
+      {
+        "year": "2025",
+        "rank": 89
+      }
+    ]
+  },
+  "PER": {
+    "country": "PER",
+    "country_name": "Peru",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 60
+      },
+      {
+        "year": "2022",
+        "rank": 63
+      },
+      {
+        "year": "2023",
+        "rank": 50
+      },
+      {
+        "year": "2024",
+        "rank": 50
+      },
+      {
+        "year": "2025",
+        "rank": 48
+      }
+    ]
+  },
+  "PHL": {
+    "country": "PHL",
+    "country_name": "Philippines",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 67
+      },
+      {
+        "year": "2022",
+        "rank": 61
+      },
+      {
+        "year": "2023",
+        "rank": 51
+      },
+      {
+        "year": "2024",
+        "rank": 51
+      },
+      {
+        "year": "2025",
+        "rank": 50
+      }
+    ]
+  },
+  "POL": {
+    "country": "POL",
+    "country_name": "Poland",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 35
+      },
+      {
+        "year": "2022",
+        "rank": 29
+      },
+      {
+        "year": "2023",
+        "rank": 36
+      },
+      {
+        "year": "2024",
+        "rank": 36
+      },
+      {
+        "year": "2025",
+        "rank": 45
+      }
+    ]
+  },
+  "PRT": {
+    "country": "PRT",
+    "country_name": "Portugal",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 28
+      },
+      {
+        "year": "2022",
+        "rank": 25
+      },
+      {
+        "year": "2023",
+        "rank": 25
+      },
+      {
+        "year": "2024",
+        "rank": 25
+      },
+      {
+        "year": "2025",
+        "rank": 30
+      }
+    ]
+  },
+  "QAT": {
+    "country": "QAT",
+    "country_name": "Qatar",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 21
+      },
+      {
+        "year": "2022",
+        "rank": 22
+      },
+      {
+        "year": "2023",
+        "rank": 18
+      },
+      {
+        "year": "2024",
+        "rank": 18
+      },
+      {
+        "year": "2025",
+        "rank": 6
+      }
+    ]
+  },
+  "ROU": {
+    "country": "ROU",
+    "country_name": "Romania",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 48
+      },
+      {
+        "year": "2022",
+        "rank": 43
+      },
+      {
+        "year": "2023",
+        "rank": 35
+      },
+      {
+        "year": "2024",
+        "rank": 35
+      },
+      {
+        "year": "2025",
+        "rank": 33
+      }
+    ]
+  },
+  "RUS": {
+    "country": "RUS",
+    "country_name": "Russian Federation",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 65
+      },
+      {
+        "year": "2022",
+        "rank": 67
+      },
+      {
+        "year": "2023",
+        "rank": 103
+      },
+      {
+        "year": "2024",
+        "rank": 103
+      },
+      {
+        "year": "2025",
+        "rank": 99
+      }
+    ]
+  },
+  "RWA": {
+    "country": "RWA",
+    "country_name": "Rwanda",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 52
+      },
+      {
+        "year": "2022",
+        "rank": 44
+      },
+      {
+        "year": "2023",
+        "rank": 80
+      },
+      {
+        "year": "2024",
+        "rank": 80
+      },
+      {
+        "year": "2025",
+        "rank": 84
+      }
+    ]
+  },
+  "SAU": {
+    "country": "SAU",
+    "country_name": "Saudi Arabia",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 64
+      },
+      {
+        "year": "2022",
+        "rank": 55
+      },
+      {
+        "year": "2023",
+        "rank": 54
+      },
+      {
+        "year": "2024",
+        "rank": 54
+      },
+      {
+        "year": "2025",
+        "rank": 57
+      }
+    ]
+  },
+  "SEN": {
+    "country": "SEN",
+    "country_name": "Senegal",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 92
+      },
+      {
+        "year": "2022",
+        "rank": 108
+      },
+      {
+        "year": "2023",
+        "rank": 59
+      },
+      {
+        "year": "2024",
+        "rank": 59
+      },
+      {
+        "year": "2025",
+        "rank": 56
+      }
+    ]
+  },
+  "SRB": {
+    "country": "SRB",
+    "country_name": "Serbia",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 70
+      },
+      {
+        "year": "2022",
+        "rank": 56
+      },
+      {
+        "year": "2023",
+        "rank": 65
+      },
+      {
+        "year": "2024",
+        "rank": 65
+      },
+      {
+        "year": "2025",
+        "rank": 57
+      }
+    ]
+  },
+  "SLE": {
+    "country": "SLE",
+    "country_name": "Sierra Leone",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 113
+      },
+      {
+        "year": "2022",
+        "rank": 120
+      },
+      {
+        "year": "2023",
+        "rank": 125
+      },
+      {
+        "year": "2024",
+        "rank": 125
+      },
+      {
+        "year": "2025",
+        "rank": 113
+      }
+    ]
+  },
+  "SGP": {
+    "country": "SGP",
+    "country_name": "Singapore",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 1
+      },
+      {
+        "year": "2022",
+        "rank": 1
+      },
+      {
+        "year": "2023",
+        "rank": 1
+      },
+      {
+        "year": "2024",
+        "rank": 1
+      },
+      {
+        "year": "2025",
+        "rank": 1
+      }
+    ]
+  },
+  "SVK": {
+    "country": "SVK",
+    "country_name": "Slovak Republic",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 40
+      },
+      {
+        "year": "2022",
+        "rank": 36
+      },
+      {
+        "year": "2023",
+        "rank": 28
+      },
+      {
+        "year": "2024",
+        "rank": 28
+      },
+      {
+        "year": "2025",
+        "rank": 29
+      }
+    ]
+  },
+  "SVN": {
+    "country": "SVN",
+    "country_name": "Slovenia",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 29
+      },
+      {
+        "year": "2022",
+        "rank": 31
+      },
+      {
+        "year": "2023",
+        "rank": 33
+      },
+      {
+        "year": "2024",
+        "rank": 33
+      },
+      {
+        "year": "2025",
+        "rank": 35
+      }
+    ]
+  },
+  "ZAF": {
+    "country": "ZAF",
+    "country_name": "South Africa",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 100
+      },
+      {
+        "year": "2022",
+        "rank": 99
+      },
+      {
+        "year": "2023",
+        "rank": 117
+      },
+      {
+        "year": "2024",
+        "rank": 117
+      },
+      {
+        "year": "2025",
+        "rank": 127
+      }
+    ]
+  },
+  "ESP": {
+    "country": "ESP",
+    "country_name": "Spain",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 27
+      },
+      {
+        "year": "2022",
+        "rank": 34
+      },
+      {
+        "year": "2023",
+        "rank": 24
+      },
+      {
+        "year": "2024",
+        "rank": 24
+      },
+      {
+        "year": "2025",
+        "rank": 27
+      }
+    ]
+  },
+  "LKA": {
+    "country": "LKA",
+    "country_name": "Sri Lanka",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 117
+      },
+      {
+        "year": "2022",
+        "rank": 116
+      },
+      {
+        "year": "2023",
+        "rank": 100
+      },
+      {
+        "year": "2024",
+        "rank": 100
+      },
+      {
+        "year": "2025",
+        "rank": 124
+      }
+    ]
+  },
+  "SDN": {
+    "country": "SDN",
+    "country_name": "Sudan",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 150
+      },
+      {
+        "year": "2022",
+        "rank": 151
+      },
+      {
+        "year": "2023",
+        "rank": 151
+      },
+      {
+        "year": "2024",
+        "rank": 151
+      },
+      {
+        "year": "2025",
+        "rank": 149
+      }
+    ]
+  },
+  "SWE": {
+    "country": "SWE",
+    "country_name": "Sweden",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 6
+      },
+      {
+        "year": "2022",
+        "rank": 6
+      },
+      {
+        "year": "2023",
+        "rank": 9
+      },
+      {
+        "year": "2024",
+        "rank": 9
+      },
+      {
+        "year": "2025",
+        "rank": 12
+      }
+    ]
+  },
+  "CHE": {
+    "country": "CHE",
+    "country_name": "Switzerland",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 2
+      },
+      {
+        "year": "2022",
+        "rank": 2
+      },
+      {
+        "year": "2023",
+        "rank": 2
+      },
+      {
+        "year": "2024",
+        "rank": 2
+      },
+      {
+        "year": "2025",
+        "rank": 3
+      }
+    ]
+  },
+  "SYR": {
+    "country": "SYR",
+    "country_name": "Syrian Arab Republic",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 148
+      },
+      {
+        "year": "2022",
+        "rank": 148
+      },
+      {
+        "year": "2023",
+        "rank": 146
+      },
+      {
+        "year": "2024",
+        "rank": 146
+      },
+      {
+        "year": "2025",
+        "rank": 147
+      }
+    ]
+  },
+  "TJK": {
+    "country": "TJK",
+    "country_name": "Tajikistan",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 140
+      },
+      {
+        "year": "2022",
+        "rank": 122
+      },
+      {
+        "year": "2023",
+        "rank": 86
+      },
+      {
+        "year": "2024",
+        "rank": 86
+      },
+      {
+        "year": "2025",
+        "rank": 100
+      }
+    ]
+  },
+  "TZA": {
+    "country": "TZA",
+    "country_name": "Tanzania",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 89
+      },
+      {
+        "year": "2022",
+        "rank": 111
+      },
+      {
+        "year": "2023",
+        "rank": 98
+      },
+      {
+        "year": "2024",
+        "rank": 98
+      },
+      {
+        "year": "2025",
+        "rank": 104
+      }
+    ]
+  },
+  "THA": {
+    "country": "THA",
+    "country_name": "Thailand",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 30
+      },
+      {
+        "year": "2022",
+        "rank": 30
+      },
+      {
+        "year": "2023",
+        "rank": 37
+      },
+      {
+        "year": "2024",
+        "rank": 37
+      },
+      {
+        "year": "2025",
+        "rank": 39
+      }
+    ]
+  },
+  "TLS": {
+    "country": "TLS",
+    "country_name": "Timor-Leste",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 94
+      },
+      {
+        "year": "2022",
+        "rank": 64
+      },
+      {
+        "year": "2023",
+        "rank": 120
+      },
+      {
+        "year": "2024",
+        "rank": 120
+      },
+      {
+        "year": "2025",
+        "rank": 69
+      }
+    ]
+  },
+  "TGO": {
+    "country": "TGO",
+    "country_name": "Togo",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 85
+      },
+      {
+        "year": "2022",
+        "rank": 73
+      },
+      {
+        "year": "2023",
+        "rank": 76
+      },
+      {
+        "year": "2024",
+        "rank": 76
+      },
+      {
+        "year": "2025",
+        "rank": 68
+      }
+    ]
+  },
+  "TTO": {
+    "country": "TTO",
+    "country_name": "Trinidad and Tobago",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 80
+      },
+      {
+        "year": "2022",
+        "rank": 93
+      },
+      {
+        "year": "2023",
+        "rank": 104
+      },
+      {
+        "year": "2024",
+        "rank": 104
+      },
+      {
+        "year": "2025",
+        "rank": 91
+      }
+    ]
+  },
+  "TUN": {
+    "country": "TUN",
+    "country_name": "Tunisia",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 132
+      },
+      {
+        "year": "2022",
+        "rank": 130
+      },
+      {
+        "year": "2023",
+        "rank": 107
+      },
+      {
+        "year": "2024",
+        "rank": 107
+      },
+      {
+        "year": "2025",
+        "rank": 129
+      }
+    ]
+  },
+  "TUR": {
+    "country": "TUR",
+    "country_name": "Turkey",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 87
+      },
+      {
+        "year": "2022",
+        "rank": 70
+      },
+      {
+        "year": "2023",
+        "rank": 62
+      },
+      {
+        "year": "2024",
+        "rank": 62
+      },
+      {
+        "year": "2025",
+        "rank": 84
+      }
+    ]
+  },
+  "TKM": {
+    "country": "TKM",
+    "country_name": "Turkmenistan",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 138
+      },
+      {
+        "year": "2022",
+        "rank": 118
+      },
+      {
+        "year": "2023",
+        "rank": 92
+      },
+      {
+        "year": "2024",
+        "rank": 92
+      },
+      {
+        "year": "2025",
+        "rank": 76
+      }
+    ]
+  },
+  "UGA": {
+    "country": "UGA",
+    "country_name": "Uganda",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 75
+      },
+      {
+        "year": "2022",
+        "rank": 75
+      },
+      {
+        "year": "2023",
+        "rank": 124
+      },
+      {
+        "year": "2024",
+        "rank": 124
+      },
+      {
+        "year": "2025",
+        "rank": 121
+      }
+    ]
+  },
+  "UKR": {
+    "country": "UKR",
+    "country_name": "Ukraine",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 76
+      },
+      {
+        "year": "2022",
+        "rank": 86
+      },
+      {
+        "year": "2023",
+        "rank": 108
+      },
+      {
+        "year": "2024",
+        "rank": 108
+      },
+      {
+        "year": "2025",
+        "rank": 114
+      }
+    ]
+  },
+  "ARE": {
+    "country": "ARE",
+    "country_name": "United Arab Emirates",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 18
+      },
+      {
+        "year": "2022",
+        "rank": 20
+      },
+      {
+        "year": "2023",
+        "rank": 32
+      },
+      {
+        "year": "2024",
+        "rank": 32
+      },
+      {
+        "year": "2025",
+        "rank": 20
+      }
+    ]
+  },
+  "GBR": {
+    "country": "GBR",
+    "country_name": "United Kingdom",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 3
+      },
+      {
+        "year": "2022",
+        "rank": 8
+      },
+      {
+        "year": "2023",
+        "rank": 11
+      },
+      {
+        "year": "2024",
+        "rank": 11
+      },
+      {
+        "year": "2025",
+        "rank": 10
+      }
+    ]
+  },
+  "USA": {
+    "country": "USA",
+    "country_name": "United States",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 5
+      },
+      {
+        "year": "2022",
+        "rank": 15
+      },
+      {
+        "year": "2023",
+        "rank": 16
+      },
+      {
+        "year": "2024",
+        "rank": 16
+      },
+      {
+        "year": "2025",
+        "rank": 2
+      }
+    ]
+  },
+  "URY": {
+    "country": "URY",
+    "country_name": "Uruguay",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 61
+      },
+      {
+        "year": "2022",
+        "rank": 51
+      },
+      {
+        "year": "2023",
+        "rank": 41
+      },
+      {
+        "year": "2024",
+        "rank": 41
+      },
+      {
+        "year": "2025",
+        "rank": 47
+      }
+    ]
+  },
+  "UZB": {
+    "country": "UZB",
+    "country_name": "Uzbekistan",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 82
+      },
+      {
+        "year": "2022",
+        "rank": 88
+      },
+      {
+        "year": "2023",
+        "rank": 71
+      },
+      {
+        "year": "2024",
+        "rank": 71
+      },
+      {
+        "year": "2025",
+        "rank": 69
+      }
+    ]
+  },
+  "VEN": {
+    "country": "VEN",
+    "country_name": "Venezuela, RB",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 125
+      },
+      {
+        "year": "2022",
+        "rank": 134
+      },
+      {
+        "year": "2023",
+        "rank": 144
+      },
+      {
+        "year": "2024",
+        "rank": 144
+      },
+      {
+        "year": "2025",
+        "rank": 143
+      }
+    ]
+  },
+  "VNM": {
+    "country": "VNM",
+    "country_name": "Vietnam",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 36
+      },
+      {
+        "year": "2022",
+        "rank": 38
+      },
+      {
+        "year": "2023",
+        "rank": 48
+      },
+      {
+        "year": "2024",
+        "rank": 48
+      },
+      {
+        "year": "2025",
+        "rank": 44
+      }
+    ]
+  },
+  "YEM": {
+    "country": "YEM",
+    "country_name": "Yemen, Rep.",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 149
+      },
+      {
+        "year": "2022",
+        "rank": 147
+      },
+      {
+        "year": "2023",
+        "rank": 148
+      },
+      {
+        "year": "2024",
+        "rank": 148
+      },
+      {
+        "year": "2025",
+        "rank": 148
+      }
+    ]
+  },
+  "ZMB": {
+    "country": "ZMB",
+    "country_name": "Zambia",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 138
+      },
+      {
+        "year": "2022",
+        "rank": 133
+      },
+      {
+        "year": "2023",
+        "rank": 113
+      },
+      {
+        "year": "2024",
+        "rank": 113
+      },
+      {
+        "year": "2025",
+        "rank": 97
+      }
+    ]
+  },
+  "ZWE": {
+    "country": "ZWE",
+    "country_name": "Zimbabwe",
+    "rankings": [
+      {
+        "year": "2021",
+        "rank": 101
+      },
+      {
+        "year": "2022",
+        "rank": 126
+      },
+      {
+        "year": "2023",
+        "rank": 140
+      },
+      {
+        "year": "2024",
+        "rank": 140
+      },
+      {
+        "year": "2025",
+        "rank": 144
+      }
+    ]
+  }
+}

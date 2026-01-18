@@ -1,0 +1,757 @@
+[
+  {
+    "id": "SGP",
+    "name": "Singapore",
+    "rank2025": 1
+  },
+  {
+    "id": "USA",
+    "name": "United States",
+    "rank2025": 2
+  },
+  {
+    "id": "CHE",
+    "name": "Switzerland",
+    "rank2025": 3
+  },
+  {
+    "id": "JPN",
+    "name": "Japan",
+    "rank2025": 4
+  },
+  {
+    "id": "KOR",
+    "name": "Korea, Rep.",
+    "rank2025": 5
+  },
+  {
+    "id": "QAT",
+    "name": "Qatar",
+    "rank2025": 6
+  },
+  {
+    "id": "DEU",
+    "name": "Germany",
+    "rank2025": 7
+  },
+  {
+    "id": "NZL",
+    "name": "New Zealand",
+    "rank2025": 7
+  },
+  {
+    "id": "NLD",
+    "name": "Netherlands",
+    "rank2025": 9
+  },
+  {
+    "id": "AUS",
+    "name": "Australia",
+    "rank2025": 10
+  },
+  {
+    "id": "GBR",
+    "name": "United Kingdom",
+    "rank2025": 10
+  },
+  {
+    "id": "SWE",
+    "name": "Sweden",
+    "rank2025": 12
+  },
+  {
+    "id": "CAN",
+    "name": "Canada",
+    "rank2025": 13
+  },
+  {
+    "id": "ISR",
+    "name": "Israel",
+    "rank2025": 14
+  },
+  {
+    "id": "DNK",
+    "name": "Denmark",
+    "rank2025": 15
+  },
+  {
+    "id": "NOR",
+    "name": "Norway",
+    "rank2025": 16
+  },
+  {
+    "id": "AUT",
+    "name": "Austria",
+    "rank2025": 17
+  },
+  {
+    "id": "FIN",
+    "name": "Finland",
+    "rank2025": 18
+  },
+  {
+    "id": "CHN",
+    "name": "China",
+    "rank2025": 19
+  },
+  {
+    "id": "ARE",
+    "name": "United Arab Emirates",
+    "rank2025": 20
+  },
+  {
+    "id": "CZE",
+    "name": "Czech Republic",
+    "rank2025": 21
+  },
+  {
+    "id": "FRA",
+    "name": "France",
+    "rank2025": 21
+  },
+  {
+    "id": "IRL",
+    "name": "Ireland",
+    "rank2025": 23
+  },
+  {
+    "id": "BEL",
+    "name": "Belgium",
+    "rank2025": 24
+  },
+  {
+    "id": "BHR",
+    "name": "Bahrain",
+    "rank2025": 25
+  },
+  {
+    "id": "EST",
+    "name": "Estonia",
+    "rank2025": 26
+  },
+  {
+    "id": "ESP",
+    "name": "Spain",
+    "rank2025": 27
+  },
+  {
+    "id": "CYP",
+    "name": "Cyprus",
+    "rank2025": 28
+  },
+  {
+    "id": "SVK",
+    "name": "Slovak Republic",
+    "rank2025": 29
+  },
+  {
+    "id": "PRT",
+    "name": "Portugal",
+    "rank2025": 30
+  },
+  {
+    "id": "MYS",
+    "name": "Malaysia",
+    "rank2025": 31
+  },
+  {
+    "id": "CHL",
+    "name": "Chile",
+    "rank2025": 32
+  },
+  {
+    "id": "ROU",
+    "name": "Romania",
+    "rank2025": 33
+  },
+  {
+    "id": "PAN",
+    "name": "Panama",
+    "rank2025": 34
+  },
+  {
+    "id": "SVN",
+    "name": "Slovenia",
+    "rank2025": 35
+  },
+  {
+    "id": "ITA",
+    "name": "Italy",
+    "rank2025": 36
+  },
+  {
+    "id": "BGR",
+    "name": "Bulgaria",
+    "rank2025": 37
+  },
+  {
+    "id": "LVA",
+    "name": "Latvia",
+    "rank2025": 37
+  },
+  {
+    "id": "IDN",
+    "name": "Indonesia",
+    "rank2025": 39
+  },
+  {
+    "id": "THA",
+    "name": "Thailand",
+    "rank2025": 39
+  },
+  {
+    "id": "OMN",
+    "name": "Oman",
+    "rank2025": 41
+  },
+  {
+    "id": "HUN",
+    "name": "Hungary",
+    "rank2025": 42
+  },
+  {
+    "id": "LTU",
+    "name": "Lithuania",
+    "rank2025": 43
+  },
+  {
+    "id": "VNM",
+    "name": "Vietnam",
+    "rank2025": 44
+  },
+  {
+    "id": "POL",
+    "name": "Poland",
+    "rank2025": 45
+  },
+  {
+    "id": "GRC",
+    "name": "Greece",
+    "rank2025": 46
+  },
+  {
+    "id": "URY",
+    "name": "Uruguay",
+    "rank2025": 47
+  },
+  {
+    "id": "PER",
+    "name": "Peru",
+    "rank2025": 48
+  },
+  {
+    "id": "KAZ",
+    "name": "Kazakhstan",
+    "rank2025": 49
+  },
+  {
+    "id": "PHL",
+    "name": "Philippines",
+    "rank2025": 50
+  },
+  {
+    "id": "ARM",
+    "name": "Armenia",
+    "rank2025": 51
+  },
+  {
+    "id": "HRV",
+    "name": "Croatia",
+    "rank2025": 52
+  },
+  {
+    "id": "KHM",
+    "name": "Cambodia",
+    "rank2025": 53
+  },
+  {
+    "id": "DOM",
+    "name": "Dominican Republic",
+    "rank2025": 54
+  },
+  {
+    "id": "MUS",
+    "name": "Mauritius",
+    "rank2025": 55
+  },
+  {
+    "id": "SEN",
+    "name": "Senegal",
+    "rank2025": 56
+  },
+  {
+    "id": "SAU",
+    "name": "Saudi Arabia",
+    "rank2025": 57
+  },
+  {
+    "id": "SRB",
+    "name": "Serbia",
+    "rank2025": 57
+  },
+  {
+    "id": "BGD",
+    "name": "Bangladesh",
+    "rank2025": 59
+  },
+  {
+    "id": "IND",
+    "name": "India",
+    "rank2025": 60
+  },
+  {
+    "id": "CRI",
+    "name": "Costa Rica",
+    "rank2025": 61
+  },
+  {
+    "id": "AZE",
+    "name": "Azerbaijan",
+    "rank2025": 62
+  },
+  {
+    "id": "GEO",
+    "name": "Georgia",
+    "rank2025": 63
+  },
+  {
+    "id": "KWT",
+    "name": "Kuwait",
+    "rank2025": 63
+  },
+  {
+    "id": "MEX",
+    "name": "Mexico",
+    "rank2025": 65
+  },
+  {
+    "id": "COL",
+    "name": "Colombia",
+    "rank2025": 66
+  },
+  {
+    "id": "MNG",
+    "name": "Mongolia",
+    "rank2025": 66
+  },
+  {
+    "id": "TGO",
+    "name": "Togo",
+    "rank2025": 68
+  },
+  {
+    "id": "BRA",
+    "name": "Brazil",
+    "rank2025": 69
+  },
+  {
+    "id": "LAO",
+    "name": "Lao PDR",
+    "rank2025": 69
+  },
+  {
+    "id": "MDA",
+    "name": "Moldova",
+    "rank2025": 69
+  },
+  {
+    "id": "TLS",
+    "name": "Timor-Leste",
+    "rank2025": 69
+  },
+  {
+    "id": "UZB",
+    "name": "Uzbekistan",
+    "rank2025": 69
+  },
+  {
+    "id": "BEN",
+    "name": "Benin",
+    "rank2025": 74
+  },
+  {
+    "id": "CIV",
+    "name": "Côte d'Ivoire",
+    "rank2025": 75
+  },
+  {
+    "id": "BWA",
+    "name": "Botswana",
+    "rank2025": 76
+  },
+  {
+    "id": "GHA",
+    "name": "Ghana",
+    "rank2025": 76
+  },
+  {
+    "id": "TKM",
+    "name": "Turkmenistan",
+    "rank2025": 76
+  },
+  {
+    "id": "ECU",
+    "name": "Ecuador",
+    "rank2025": 79
+  },
+  {
+    "id": "JAM",
+    "name": "Jamaica",
+    "rank2025": 79
+  },
+  {
+    "id": "ALB",
+    "name": "Albania",
+    "rank2025": 81
+  },
+  {
+    "id": "BOL",
+    "name": "Bolivia",
+    "rank2025": 81
+  },
+  {
+    "id": "MKD",
+    "name": "North Macedonia",
+    "rank2025": 83
+  },
+  {
+    "id": "RWA",
+    "name": "Rwanda",
+    "rank2025": 84
+  },
+  {
+    "id": "TUR",
+    "name": "Turkey",
+    "rank2025": 84
+  },
+  {
+    "id": "ARG",
+    "name": "Argentina",
+    "rank2025": 86
+  },
+  {
+    "id": "MAR",
+    "name": "Morocco",
+    "rank2025": 86
+  },
+  {
+    "id": "LBR",
+    "name": "Liberia",
+    "rank2025": 88
+  },
+  {
+    "id": "CUB",
+    "name": "Cuba",
+    "rank2025": 89
+  },
+  {
+    "id": "PRY",
+    "name": "Paraguay",
+    "rank2025": 89
+  },
+  {
+    "id": "TTO",
+    "name": "Trinidad and Tobago",
+    "rank2025": 91
+  },
+  {
+    "id": "KGZ",
+    "name": "Kyrgyz Republic",
+    "rank2025": 92
+  },
+  {
+    "id": "BLR",
+    "name": "Belarus",
+    "rank2025": 93
+  },
+  {
+    "id": "NAM",
+    "name": "Namibia",
+    "rank2025": 94
+  },
+  {
+    "id": "GMB",
+    "name": "Gambia, The",
+    "rank2025": 95
+  },
+  {
+    "id": "PNG",
+    "name": "Papua New Guinea",
+    "rank2025": 95
+  },
+  {
+    "id": "NER",
+    "name": "Niger",
+    "rank2025": 97
+  },
+  {
+    "id": "ZMB",
+    "name": "Zambia",
+    "rank2025": 97
+  },
+  {
+    "id": "RUS",
+    "name": "Russian Federation",
+    "rank2025": 99
+  },
+  {
+    "id": "JOR",
+    "name": "Jordan",
+    "rank2025": 100
+  },
+  {
+    "id": "TJK",
+    "name": "Tajikistan",
+    "rank2025": 100
+  },
+  {
+    "id": "EGY",
+    "name": "Egypt, Arab Rep.",
+    "rank2025": 102
+  },
+  {
+    "id": "GNB",
+    "name": "Guinea-Bissau",
+    "rank2025": 102
+  },
+  {
+    "id": "TZA",
+    "name": "Tanzania",
+    "rank2025": 104
+  },
+  {
+    "id": "KEN",
+    "name": "Kenya",
+    "rank2025": 105
+  },
+  {
+    "id": "MDG",
+    "name": "Madagascar",
+    "rank2025": 106
+  },
+  {
+    "id": "SLV",
+    "name": "El Salvador",
+    "rank2025": 107
+  },
+  {
+    "id": "HND",
+    "name": "Honduras",
+    "rank2025": 107
+  },
+  {
+    "id": "GTM",
+    "name": "Guatemala",
+    "rank2025": 109
+  },
+  {
+    "id": "BDI",
+    "name": "Burundi",
+    "rank2025": 110
+  },
+  {
+    "id": "ETH",
+    "name": "Ethiopia",
+    "rank2025": 110
+  },
+  {
+    "id": "MOZ",
+    "name": "Mozambique",
+    "rank2025": 112
+  },
+  {
+    "id": "SLE",
+    "name": "Sierra Leone",
+    "rank2025": 113
+  },
+  {
+    "id": "UKR",
+    "name": "Ukraine",
+    "rank2025": 114
+  },
+  {
+    "id": "GNQ",
+    "name": "Equatorial Guinea",
+    "rank2025": 115
+  },
+  {
+    "id": "GIN",
+    "name": "Guinea",
+    "rank2025": 115
+  },
+  {
+    "id": "MLI",
+    "name": "Mali",
+    "rank2025": 117
+  },
+  {
+    "id": "NIC",
+    "name": "Nicaragua",
+    "rank2025": 118
+  },
+  {
+    "id": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "rank2025": 119
+  },
+  {
+    "id": "MWI",
+    "name": "Malawi",
+    "rank2025": 119
+  },
+  {
+    "id": "NGA",
+    "name": "Nigeria",
+    "rank2025": 121
+  },
+  {
+    "id": "UGA",
+    "name": "Uganda",
+    "rank2025": 121
+  },
+  {
+    "id": "DZA",
+    "name": "Algeria",
+    "rank2025": 123
+  },
+  {
+    "id": "CMR",
+    "name": "Cameroon",
+    "rank2025": 124
+  },
+  {
+    "id": "COD",
+    "name": "Congo, Dem. Rep.",
+    "rank2025": 124
+  },
+  {
+    "id": "LKA",
+    "name": "Sri Lanka",
+    "rank2025": 124
+  },
+  {
+    "id": "ZAF",
+    "name": "South Africa",
+    "rank2025": 127
+  },
+  {
+    "id": "MMR",
+    "name": "Myanmar",
+    "rank2025": 128
+  },
+  {
+    "id": "IRN",
+    "name": "Iran, Islamic Rep.",
+    "rank2025": 129
+  },
+  {
+    "id": "TUN",
+    "name": "Tunisia",
+    "rank2025": 129
+  },
+  {
+    "id": "BFA",
+    "name": "Burkina Faso",
+    "rank2025": 131
+  },
+  {
+    "id": "PAK",
+    "name": "Pakistan",
+    "rank2025": 132
+  },
+  {
+    "id": "NPL",
+    "name": "Nepal",
+    "rank2025": 133
+  },
+  {
+    "id": "MRT",
+    "name": "Mauritania",
+    "rank2025": 134
+  },
+  {
+    "id": "LBN",
+    "name": "Lebanon",
+    "rank2025": 135
+  },
+  {
+    "id": "CAF",
+    "name": "Central African Republic",
+    "rank2025": 136
+  },
+  {
+    "id": "COG",
+    "name": "Congo, Rep.",
+    "rank2025": 137
+  },
+  {
+    "id": "LBY",
+    "name": "Libya",
+    "rank2025": 138
+  },
+  {
+    "id": "TCD",
+    "name": "Chad",
+    "rank2025": 139
+  },
+  {
+    "id": "GAB",
+    "name": "Gabon",
+    "rank2025": 139
+  },
+  {
+    "id": "LSO",
+    "name": "Lesotho",
+    "rank2025": 141
+  },
+  {
+    "id": "AGO",
+    "name": "Angola",
+    "rank2025": 142
+  },
+  {
+    "id": "VEN",
+    "name": "Venezuela, RB",
+    "rank2025": 143
+  },
+  {
+    "id": "ZWE",
+    "name": "Zimbabwe",
+    "rank2025": 144
+  },
+  {
+    "id": "SWZ",
+    "name": "Eswatini",
+    "rank2025": 145
+  },
+  {
+    "id": "IRQ",
+    "name": "Iraq",
+    "rank2025": 146
+  },
+  {
+    "id": "SYR",
+    "name": "Syrian Arab Republic",
+    "rank2025": 147
+  },
+  {
+    "id": "YEM",
+    "name": "Yemen, Rep.",
+    "rank2025": 148
+  },
+  {
+    "id": "SDN",
+    "name": "Sudan",
+    "rank2025": 149
+  },
+  {
+    "id": "HTI",
+    "name": "Haiti",
+    "rank2025": 150
+  },
+  {
+    "id": "AFG",
+    "name": "Afghanistan",
+    "rank2025": 151
+  }
+]

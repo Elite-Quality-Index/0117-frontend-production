@@ -69,7 +69,7 @@ export function NavMain({
 
   return (
     <SidebarGroup>
-      <SidebarMenu>
+      <SidebarMenu className="gap-2">
         {items.map((item) =>
           item.items && item.items.length > 0 ? (
             <Collapsible
@@ -107,7 +107,7 @@ export function NavMain({
           ) : (
             <SidebarMenuItem key={item.title}>
               <Link to={item.url}>
-                <SidebarMenuButton tooltip={item.title}>
+                <SidebarMenuButton tooltip={item.title} isActive={location.pathname === item.url}>
                   {item.icon && <item.icon />}
                   <span>{item.title}</span>
                 </SidebarMenuButton>

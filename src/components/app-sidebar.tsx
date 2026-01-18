@@ -5,14 +5,11 @@ import { useNavigate } from "react-router-dom"
 import {
   BookOpen,
   Bot,
-  Frame,
-  Map,
-  PieChart,
-  Database,
+  ChartLine,
 } from "lucide-react"
 
 import { NavMain } from "@/components/nav-main"
-import { NavRecents } from "@/components/nav-recent"
+import { NavSessions } from "@/components/nav-recent"
 import { NavUser } from "@/components/nav-user"
 import {
   Sidebar,
@@ -22,8 +19,8 @@ import {
   SidebarRail,
 } from "@/components/ui/sidebar"
 import { useAuth } from "@/hooks/use-auth"
+import { useChat } from "@/hooks/use-chat"
 
-// This is sample data.
 const data = {
   navMain: [
     {
@@ -48,43 +45,8 @@ const data = {
     },
     {
       title: "Data",
-      url: "#",
-      icon: Database,
-      items: [
-        {
-          title: "General",
-          url: "#",
-        },
-        {
-          title: "Team",
-          url: "#",
-        },
-        {
-          title: "Billing",
-          url: "#",
-        },
-        {
-          title: "Limits",
-          url: "#",
-        },
-      ],
-    },
-  ],
-  recents: [
-    {
-      name: "Design Engineering",
-      url: "#",
-      icon: Frame,
-    },
-    {
-      name: "Sales & Marketing",
-      url: "#",
-      icon: PieChart,
-    },
-    {
-      name: "Travel",
-      url: "#",
-      icon: Map,
+      url: "/data-visuals",
+      icon: ChartLine,
     },
   ],
 }
@@ -92,10 +54,27 @@ const data = {
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   const navigate = useNavigate()
   const { user, signOut } = useAuth()
+  const {
+    sessions,
+    currentSessionId,
+    handleSelectSession,
+    handleNewSession,
+    handleDeleteSession,
+  } = useChat()
 
   const handleLogout = async () => {
     await signOut()
     navigate("/login")
+  }
+
+  const onSelectSession = (sessionId: string) => {
+    handleSelectSession(sessionId)
+    navigate("/cloud-chat")
+  }
+
+  const onNewSession = () => {
+    handleNewSession()
+    navigate("/cloud-chat")
   }
 
   // Derive user display data from Firebase user
@@ -122,7 +101,15 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       </SidebarHeader>
       <SidebarContent>
         <NavMain items={data.navMain} />
-        <NavRecents recents={data.recents} />
+        {user && (
+          <NavSessions
+            sessions={sessions}
+            currentSessionId={currentSessionId}
+            onSelectSession={onSelectSession}
+            onNewSession={onNewSession}
+            onDeleteSession={handleDeleteSession}
+          />
+        )}
       </SidebarContent>
       <SidebarFooter>
         <NavUser user={userDisplayData} isLoggedIn={!!user} onLogout={handleLogout} />

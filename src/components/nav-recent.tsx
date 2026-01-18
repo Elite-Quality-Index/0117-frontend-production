@@ -1,20 +1,11 @@
 "use client"
 
 import {
-  Folder,
-  Forward,
-  MoreHorizontal,
+  MessageCircle,
   Trash2,
-  type LucideIcon,
+  Plus,
 } from "lucide-react"
 
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
 import {
   SidebarGroup,
   SidebarGroupLabel,
@@ -22,63 +13,82 @@ import {
   SidebarMenuAction,
   SidebarMenuButton,
   SidebarMenuItem,
-  useSidebar,
 } from "@/components/ui/sidebar"
+import type { Session } from "@/lib/api"
 
-export function NavRecents({
-  recents,
-}: {
-  recents: {
-    name: string
-    url: string
-    icon: LucideIcon
-  }[]
-}) {
-  const { isMobile } = useSidebar()
+interface NavSessionsProps {
+  sessions: Session[]
+  currentSessionId: string | null
+  onSelectSession: (sessionId: string) => void
+  onNewSession: () => void
+  onDeleteSession: (sessionId: string) => void
+}
+
+export function NavSessions({
+  sessions,
+  currentSessionId,
+  onSelectSession,
+  onNewSession,
+  onDeleteSession,
+}: NavSessionsProps) {
+  const formatDate = (dateString: string) => {
+    const date = new Date(dateString)
+    return date.toLocaleDateString(undefined, {
+      month: "short",
+      day: "numeric",
+    })
+  }
 
   return (
     <SidebarGroup className="group-data-[collapsible=icon]:hidden">
-      <SidebarGroupLabel>Recent</SidebarGroupLabel>
-      <SidebarMenu>
-        {recents.map((item) => (
-          <SidebarMenuItem key={item.name}>
-            <SidebarMenuButton render={<a href={item.url} />}>
-              <item.icon />
-              <span>{item.name}</span>
-            </SidebarMenuButton>
-            <DropdownMenu>
-              <DropdownMenuTrigger render={<SidebarMenuAction showOnHover />}>
-                <MoreHorizontal />
-                <span className="sr-only">More</span>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent
-                className="w-48 rounded-lg"
-                side={isMobile ? "bottom" : "right"}
-                align={isMobile ? "end" : "start"}
+      <SidebarGroupLabel className="flex items-center justify-between">
+        <span>Recents</span>
+        <button
+          onClick={onNewSession}
+          className="hover:bg-sidebar-accent rounded p-0.5 transition-colors"
+        >
+          <Plus className="size-4" />
+          <span className="sr-only">New Chat</span>
+        </button>
+      </SidebarGroupLabel>
+      <SidebarMenu className="gap-1">
+        {sessions.length === 0 ? (
+          <p className="px-2 py-3 text-center text-sm text-muted-foreground">
+            No conversations yet
+          </p>
+        ) : (
+          sessions.map((session) => (
+            <SidebarMenuItem key={session.session_id}>
+              <SidebarMenuButton
+                size="lg"
+                isActive={currentSessionId === session.session_id}
+                onClick={() => onSelectSession(session.session_id)}
+                tooltip={session.title}
               >
-                <DropdownMenuItem>
-                  <Folder className="text-muted-foreground" />
-                  <span>View Project</span>
-                </DropdownMenuItem>
-                <DropdownMenuItem>
-                  <Forward className="text-muted-foreground" />
-                  <span>Share Project</span>
-                </DropdownMenuItem>
-                <DropdownMenuSeparator />
-                <DropdownMenuItem>
-                  <Trash2 className="text-muted-foreground" />
-                  <span>Delete Project</span>
-                </DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
-          </SidebarMenuItem>
-        ))}
-        <SidebarMenuItem>
-          <SidebarMenuButton className="text-sidebar-foreground/70">
-            <MoreHorizontal className="text-sidebar-foreground/70" />
-            <span>More</span>
-          </SidebarMenuButton>
-        </SidebarMenuItem>
+                <MessageCircle className="size-4 shrink-0" />
+                <div className="flex flex-1 flex-col overflow-hidden min-w-0">
+                  <span className="truncate text-sm">
+                    {session.title}
+                  </span>
+                  <span className="text-[10px] text-sidebar-foreground/60">
+                    {formatDate(session.updated_at)}
+                  </span>
+                </div>
+              </SidebarMenuButton>
+              <SidebarMenuAction
+                showOnHover
+                className="right-2 hover:bg-transparent"
+                onClick={(e) => {
+                  e.stopPropagation()
+                  onDeleteSession(session.session_id)
+                }}
+              >
+                <Trash2 className="size-4 hover:text-destructive" />
+                <span className="sr-only">Delete</span>
+              </SidebarMenuAction>
+            </SidebarMenuItem>
+          ))
+        )}
       </SidebarMenu>
     </SidebarGroup>
   )

@@ -100,6 +100,7 @@ export async function* streamChat(
   const reader = response.body.getReader();
   const decoder = new TextDecoder();
   let buffer = "";
+  const terminalEventTypes: ChatEventType[] = ["done", "error", "blocked"];
 
   while (true) {
     const { done, value } = await reader.read();
@@ -117,6 +118,14 @@ export async function* streamChat(
       try {
         const event: ChatEvent = JSON.parse(data);
         yield event;
+        if (terminalEventTypes.includes(event.type)) {
+          try {
+            await reader.cancel();
+          } catch {
+            // ignore cancellation errors
+          }
+          return;
+        }
       } catch {
         console.error("Failed to parse SSE event:", data);
       }
@@ -130,6 +139,9 @@ export async function* streamChat(
       try {
         const event: ChatEvent = JSON.parse(data);
         yield event;
+        if (terminalEventTypes.includes(event.type)) {
+          return;
+        }
       } catch {
         console.error("Failed to parse final SSE event:", data);
       }

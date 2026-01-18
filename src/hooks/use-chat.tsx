@@ -251,6 +251,7 @@ export function ChatProvider({ children }: { children: ReactNode }) {
           messages: [...prev.messages, assistantMessage],
         }))
 
+        let shouldStopStreaming = false
         for await (const event of streamChat(token, content, targetSessionId)) {
           switch (event.type) {
             case "session":
@@ -323,10 +324,16 @@ export function ChatProvider({ children }: { children: ReactNode }) {
                 }
                 return newMap
               })
+              shouldStopStreaming = true
               break
 
             case "done":
+              shouldStopStreaming = true
               break
+          }
+
+          if (shouldStopStreaming) {
+            break
           }
         }
 

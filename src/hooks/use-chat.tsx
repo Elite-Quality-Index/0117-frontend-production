@@ -233,6 +233,9 @@ export function ChatProvider({ children }: { children: ReactNode }) {
       }))
       setError(null)
 
+      // Track the actual session ID (may change from null to a real ID for new sessions)
+      let newSessionId = targetSessionId
+
       try {
         const token = await getIdToken()
         if (!token) {
@@ -240,7 +243,6 @@ export function ChatProvider({ children }: { children: ReactNode }) {
         }
 
         let assistantContent = ""
-        let newSessionId = targetSessionId
 
         // Add empty assistant message
         const assistantMessage: Message = { role: "assistant", content: "" }
@@ -353,7 +355,9 @@ export function ChatProvider({ children }: { children: ReactNode }) {
         })
       } finally {
         // Mark streaming as complete for the final session key
-        const finalKey = currentSessionId ?? targetKey
+        // Use newSessionId (not currentSessionId) because React state updates are async
+        // and currentSessionId may not reflect the new session ID yet
+        const finalKey = newSessionId ?? targetKey
         setSessionStates((prev) => {
           const newMap = new Map(prev)
           const state = prev.get(finalKey)

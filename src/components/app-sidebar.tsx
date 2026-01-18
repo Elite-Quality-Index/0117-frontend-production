@@ -1,6 +1,7 @@
 "use client"
 
 import * as React from "react"
+import { useNavigate } from "react-router-dom"
 import {
   BookOpen,
   Bot,
@@ -20,14 +21,10 @@ import {
   SidebarHeader,
   SidebarRail,
 } from "@/components/ui/sidebar"
+import { useAuth } from "@/hooks/use-auth"
 
 // This is sample data.
 const data = {
-  user: {
-    name: "shadcn",
-    email: "m@example.com",
-    avatar: "/avatars/shadcn.jpg",
-  },
   navMain: [
     {
       title: "About EQx",
@@ -93,6 +90,27 @@ const data = {
 }
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
+  const navigate = useNavigate()
+  const { user, signOut } = useAuth()
+
+  const handleLogout = async () => {
+    await signOut()
+    navigate("/login")
+  }
+
+  // Derive user display data from Firebase user
+  const userDisplayData = user
+    ? {
+        name: user.displayName || user.email?.split("@")[0] || "User",
+        email: user.email || "",
+        avatar: user.photoURL || "",
+      }
+    : {
+        name: "Guest",
+        email: "",
+        avatar: "",
+      }
+
   return (
     <Sidebar collapsible="icon" {...props}>
       <SidebarHeader className="p-6 items-start transition-opacity duration-200 group-data-[collapsible=icon]:opacity-0">
@@ -107,7 +125,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         <NavRecents recents={data.recents} />
       </SidebarContent>
       <SidebarFooter>
-        <NavUser user={data.user} />
+        <NavUser user={userDisplayData} isLoggedIn={!!user} onLogout={handleLogout} />
       </SidebarFooter>
       <SidebarRail />
     </Sidebar>

@@ -1,5 +1,7 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
+import { useNavigate } from "react-router-dom"
 import { PaperclipIcon, ArrowUpIcon } from "lucide-react"
+import { useAuth } from "@/hooks/use-auth"
 import {
   InputGroup,
   InputGroupAddon,
@@ -16,7 +18,27 @@ import {
 import { Separator } from "@/components/ui/separator"
 
 export function CloudChat() {
+  const navigate = useNavigate()
+  const { user, loading } = useAuth()
   const [responseMode, setResponseMode] = useState<"Normal" | "Concise" | "Comprehensive">("Normal")
+
+  useEffect(() => {
+    if (!loading && !user) {
+      navigate("/login")
+    }
+  }, [user, loading, navigate])
+
+  if (loading) {
+    return (
+      <div className="flex flex-1 items-center justify-center">
+        <div className="text-muted-foreground">Loading...</div>
+      </div>
+    )
+  }
+
+  if (!user) {
+    return null
+  }
 
   return (
     <div className="flex flex-1 flex-col h-full">

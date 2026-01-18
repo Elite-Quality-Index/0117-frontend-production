@@ -7,6 +7,7 @@
       "dependencies": {
         "@base-ui/react": "^1.1.0",
         "@fontsource-variable/inter": "^5.2.8",
+        "@fontsource/alegreya-sans": "^5.2.8",
         "@fontsource/instrument-serif": "^5.2.8",
         "@fontsource/libre-caslon-text": "^5.2.7",
         "@tailwindcss/vite": "^4.1.17",
@@ -278,6 +279,8 @@
     "@floating-ui/utils": ["@floating-ui/utils@0.2.10", "", {}, "sha512-aGTxbpbg8/b5JfU1HXSrbH3wXZuLPJcNEcZQFMxLs3oSzgtVu6nFPkbbGGUvBcUjKV2YyB9Wxxabo+HEH9tcRQ=="],
 
     "@fontsource-variable/inter": ["@fontsource-variable/inter@5.2.8", "", {}, "sha512-kOfP2D+ykbcX/P3IFnokOhVRNoTozo5/JxhAIVYLpea/UBmCQ/YWPBfWIDuBImXX/15KH+eKh4xpEUyS2sQQGQ=="],
+
+    "@fontsource/alegreya-sans": ["@fontsource/alegreya-sans@5.2.8", "", {}, "sha512-kXUTR1S6dsWa7rBxaDJ3P05HodmYmxfY20aQtQ4SYVmrEYrWtaw5A1n+h+wcCF0nAMwf+CQ4M435dNuWD1YfMg=="],
 
     "@fontsource/instrument-serif": ["@fontsource/instrument-serif@5.2.8", "", {}, "sha512-s+bkz+syj2rO00Rmq9g0P+PwuLig33DR1xDR8pTWmovH1pUjwnncrFk++q9mmOex8fUQ7oW80gPpPDaw7V1MMw=="],
 

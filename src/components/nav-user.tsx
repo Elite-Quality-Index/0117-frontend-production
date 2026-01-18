@@ -50,16 +50,16 @@ export function NavUser({
     return (
       <SidebarMenu>
         <SidebarMenuItem>
-          <div className="flex items-center gap-2 px-2 py-1.5">
-            <Avatar className="h-8 w-8 rounded-lg">
+          <div className="flex items-center gap-2 px-2 py-1.5 group-data-[collapsible=icon]:justify-center group-data-[collapsible=icon]:px-0">
+            <Avatar className="h-8 w-8 rounded-lg shrink-0">
               <AvatarFallback className="rounded-lg">??</AvatarFallback>
             </Avatar>
-            <div className="grid flex-1 text-left text-sm leading-tight">
+            <div className="grid flex-1 text-left text-sm leading-tight group-data-[collapsible=icon]:hidden">
               <span className="truncate font-medium text-muted-foreground">Not signed in</span>
             </div>
             <button
               onClick={() => navigate("/login")}
-              className="ml-auto p-1.5 rounded-md hover:bg-sidebar-accent hover:text-sidebar-accent-foreground transition-colors"
+              className="ml-auto p-1.5 rounded-md hover:bg-sidebar-accent hover:text-sidebar-accent-foreground transition-colors group-data-[collapsible=icon]:hidden"
               title="Sign in"
             >
               <LogIn className="size-4" />
@@ -73,18 +73,18 @@ export function NavUser({
   return (
     <SidebarMenu>
       <SidebarMenuItem>
-        <div className="flex items-center gap-2 px-2 py-1.5">
-          <Avatar className="h-8 w-8 rounded-lg">
+        <div className="flex items-center gap-2 px-2 py-1.5 group-data-[collapsible=icon]:justify-center group-data-[collapsible=icon]:px-0">
+          <Avatar className="h-8 w-8 rounded-lg shrink-0">
             <AvatarImage src={user.avatar} alt={user.name} />
             <AvatarFallback className="rounded-lg">{initials}</AvatarFallback>
           </Avatar>
-          <div className="grid flex-1 text-left text-sm leading-tight">
+          <div className="grid flex-1 text-left text-sm leading-tight group-data-[collapsible=icon]:hidden">
             <span className="truncate font-medium">{user.name}</span>
             <span className="truncate text-xs">{user.email}</span>
           </div>
           <button
             onClick={onLogout}
-            className="ml-auto p-1.5 rounded-md hover:bg-sidebar-accent hover:text-sidebar-accent-foreground transition-colors"
+            className="ml-auto p-1.5 rounded-md hover:bg-sidebar-accent hover:text-sidebar-accent-foreground transition-colors group-data-[collapsible=icon]:hidden"
             title="Sign out"
           >
             <LogOut className="size-4" />

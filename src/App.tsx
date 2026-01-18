@@ -8,6 +8,8 @@ import {
 } from "@/components/ui/sidebar"
 import { Home } from "@/pages/Home"
 import { CloudChat } from "@/pages/CloudChat"
+import { AboutIndex } from "@/pages/AboutIndex"
+import { AboutFoundation } from "@/pages/AboutFoundation"
 
 export function App() {
   return (
@@ -26,6 +28,9 @@ export function App() {
           </header>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/about" element={<AboutIndex />} />
+            <Route path="/about/index" element={<AboutIndex />} />
+            <Route path="/about/foundation" element={<AboutFoundation />} />
             <Route path="/cloud-chat" element={<CloudChat />} />
           </Routes>
         </SidebarInset>

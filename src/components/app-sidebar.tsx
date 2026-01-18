@@ -31,24 +31,16 @@ const data = {
   navMain: [
     {
       title: "About EQx",
-      url: "#",
+      url: "/about",
       icon: BookOpen,
       items: [
         {
-          title: "Introduction",
-          url: "#",
+          title: "The Index",
+          url: "/about/index",
         },
         {
-          title: "Get Started",
-          url: "#",
-        },
-        {
-          title: "Tutorials",
-          url: "#",
-        },
-        {
-          title: "Changelog",
-          url: "#",
+          title: "The Foundation",
+          url: "/about/foundation",
         },
       ],
     },

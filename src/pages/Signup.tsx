@@ -13,6 +13,7 @@ import {
   FieldSeparator,
 } from "@/components/ui/field"
 import { Input } from "@/components/ui/input"
+import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip"
 import { useAuth } from "@/hooks/use-auth"
 
 export function Signup({
@@ -28,8 +29,14 @@ export function Signup({
   const [loading, setLoading] = useState(false)
 
   const validatePassword = (password: string): string | null => {
-    if (password.length < 8) {
-      return "Password must be at least 8 characters long"
+    if (password.length < 6) {
+      return "Password must be at least 6 characters long"
+    }
+    if (password.length > 18) {
+      return "Password must be no more than 18 characters long"
+    }
+    if (!/\d/.test(password)) {
+      return "Password must include at least one numeric character"
     }
     return null
   }
@@ -114,7 +121,7 @@ export function Signup({
                 <div className="flex flex-col items-center gap-2 text-center">
                   <h1 className="text-2xl font-bold">Create your account</h1>
                   <p className="text-muted-foreground text-sm text-balance">
-                    Enter your email below to create your account
+                    Enter email to create your account
                   </p>
                 </div>
                 {error && (
@@ -125,15 +132,14 @@ export function Signup({
                   <Input
                     id="email"
                     type="email"
-                    placeholder="m@example.com"
+                    placeholder="user@example.com"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
                     disabled={loading}
                   />
                   <FieldDescription>
-                    We&apos;ll use this to contact you. We will not share your
-                    email with anyone else.
+                    We will not share your email with anyone else.
                   </FieldDescription>
                 </Field>
                 <Field>
@@ -164,7 +170,7 @@ export function Signup({
                     </Field>
                   </Field>
                   <FieldDescription>
-                    Must be at least 8 characters long.
+                    Must be 6 - 18 characters and include numbers.
                   </FieldDescription>
                 </Field>
                 <Field>
@@ -173,7 +179,7 @@ export function Signup({
                   </Button>
                 </Field>
                 <FieldSeparator className="*:data-[slot=field-separator-content]:bg-card">
-                  Or continue with
+                  Or
                 </FieldSeparator>
                 <Field>
                   <Button
@@ -200,7 +206,7 @@ export function Signup({
                 </FieldDescription>
               </FieldGroup>
             </form>
-            <div className="bg-primary relative hidden md:block">
+            <div className="bg-gradient-to-br from-tertiary to-primary relative hidden md:block">
               <img
                 src="/eqx-logo1.png"
                 alt="EQx Logo"
@@ -210,15 +216,16 @@ export function Signup({
           </CardContent>
         </Card>
         <FieldDescription className="px-6 text-center">
-          By clicking continue, you agree to our{" "}
-          <a href="#" className="underline underline-offset-4 hover:text-primary">
-            Terms of Service
-          </a>{" "}
-          and{" "}
-          <a href="#" className="underline underline-offset-4 hover:text-primary">
-            Privacy Policy
-          </a>
-          .
+          We are in{" "}
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <a href="#" className="underline underline-offset-4 hover:text-primary">
+                closed Beta
+              </a>
+            </TooltipTrigger>
+            <TooltipContent>You are invited ;)</TooltipContent>
+          </Tooltip>{" "}
+          version currently.
         </FieldDescription>
       </div>
     </div>

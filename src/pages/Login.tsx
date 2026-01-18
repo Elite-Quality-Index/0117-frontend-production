@@ -13,6 +13,7 @@ import {
   FieldSeparator,
 } from "@/components/ui/field"
 import { Input } from "@/components/ui/input"
+import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip"
 import { useAuth } from "@/hooks/use-auth"
 
 export function Login({
@@ -92,7 +93,7 @@ export function Login({
                 <div className="flex flex-col items-center gap-2 text-center">
                   <h1 className="text-2xl font-bold">Welcome back</h1>
                   <p className="text-muted-foreground text-balance">
-                    Login to your EQx Cloud Chat account
+                    Login to use EQx Cloud Chat
                   </p>
                 </div>
                 {error && (
@@ -103,7 +104,7 @@ export function Login({
                   <Input
                     id="email"
                     type="email"
-                    placeholder="m@example.com"
+                    placeholder="user@example.com"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
@@ -113,12 +114,19 @@ export function Login({
                 <Field>
                   <div className="flex items-center">
                     <FieldLabel htmlFor="password">Password</FieldLabel>
-                    <a
-                      href="#"
-                      className="ml-auto text-sm underline-offset-2 hover:underline"
-                    >
-                      Forgot your password?
-                    </a>
+                    <span className="ml-auto">
+                      <Tooltip>
+                        <TooltipTrigger asChild>
+                          <a
+                            href="#"
+                            className="text-sm underline-offset-2 hover:underline"
+                          >
+                            Forgot your password?
+                          </a>
+                        </TooltipTrigger>
+                        <TooltipContent>Feature in development</TooltipContent>
+                      </Tooltip>
+                    </span>
                   </div>
                   <Input
                     id="password"
@@ -135,7 +143,7 @@ export function Login({
                   </Button>
                 </Field>
                 <FieldSeparator className="*:data-[slot=field-separator-content]:bg-card">
-                  Or continue with
+                  Or
                 </FieldSeparator>
                 <Field>
                   <Button
@@ -162,7 +170,7 @@ export function Login({
                 </FieldDescription>
               </FieldGroup>
             </form>
-            <div className="bg-primary relative hidden md:block">
+            <div className="bg-gradient-to-br from-tertiary to-primary relative hidden md:block">
               <img
                 src="/eqx-logo1.png"
                 alt="EQx Logo"
@@ -172,15 +180,16 @@ export function Login({
           </CardContent>
         </Card>
         <FieldDescription className="px-6 text-center">
-          By clicking continue, you agree to our{" "}
-          <a href="#" className="underline underline-offset-4 hover:text-primary">
-            Terms of Service
-          </a>{" "}
-          and{" "}
-          <a href="#" className="underline underline-offset-4 hover:text-primary">
-            Privacy Policy
-          </a>
-          .
+          We are in{" "}
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <a href="#" className="underline underline-offset-4 hover:text-primary">
+                closed Beta
+              </a>
+            </TooltipTrigger>
+            <TooltipContent>You are invited ;)</TooltipContent>
+          </Tooltip>{" "}
+          version currently.
         </FieldDescription>
       </div>
     </div>

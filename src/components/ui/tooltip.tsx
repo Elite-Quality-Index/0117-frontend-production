@@ -1,3 +1,4 @@
+import type { ReactElement } from "react"
 import { Tooltip as TooltipPrimitive } from "@base-ui/react/tooltip"
 
 import { cn } from "@/lib/utils"
@@ -23,8 +24,25 @@ function Tooltip({ ...props }: TooltipPrimitive.Root.Props) {
   )
 }
 
-function TooltipTrigger({ ...props }: TooltipPrimitive.Trigger.Props) {
-  return <TooltipPrimitive.Trigger data-slot="tooltip-trigger" {...props} />
+function TooltipTrigger({
+  asChild,
+  children,
+  ...props
+}: TooltipPrimitive.Trigger.Props & { asChild?: boolean }) {
+  if (asChild && children) {
+    return (
+      <TooltipPrimitive.Trigger
+        data-slot="tooltip-trigger"
+        render={children as ReactElement}
+        {...props}
+      />
+    )
+  }
+  return (
+    <TooltipPrimitive.Trigger data-slot="tooltip-trigger" {...props}>
+      {children}
+    </TooltipPrimitive.Trigger>
+  )
 }
 
 function TooltipContent({

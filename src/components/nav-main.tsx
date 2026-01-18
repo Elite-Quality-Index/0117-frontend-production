@@ -27,6 +27,7 @@ export function NavMain({
     url: string
     icon?: LucideIcon
     isActive?: boolean
+    onClick?: () => void
     items?: {
       title: string
       url: string
@@ -106,7 +107,7 @@ export function NavMain({
             </Collapsible>
           ) : (
             <SidebarMenuItem key={item.title}>
-              <Link to={item.url}>
+              <Link to={item.url} onClick={item.onClick}>
                 <SidebarMenuButton tooltip={item.title} isActive={location.pathname === item.url}>
                   {item.icon && <item.icon />}
                   <span>{item.title}</span>

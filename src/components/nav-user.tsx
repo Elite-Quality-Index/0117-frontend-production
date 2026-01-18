@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom"
 import {
   LogIn,
   LogOut,
+  UserRoundX,
 } from "lucide-react"
 
 import {
@@ -51,11 +52,11 @@ export function NavUser({
       <SidebarMenu>
         <SidebarMenuItem>
           <div className="flex items-center gap-2 px-2 py-1.5 group-data-[collapsible=icon]:justify-center group-data-[collapsible=icon]:px-0">
-            <Avatar className="h-8 w-8 rounded-lg shrink-0">
-              <AvatarFallback className="rounded-lg">??</AvatarFallback>
-            </Avatar>
+            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-muted shrink-0">
+              <UserRoundX className="size-5 text-muted-foreground" />
+            </div>
             <div className="grid flex-1 text-left text-sm leading-tight group-data-[collapsible=icon]:hidden">
-              <span className="truncate font-medium text-muted-foreground">Not signed in</span>
+              <span className="truncate font-medium text-muted-foreground">Please sign in</span>
             </div>
             <button
               onClick={() => navigate("/login")}

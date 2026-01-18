@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+import { BotMessageSquare } from "lucide-react"
 import { ABOUT_INDEX_CONTENT } from "@/constants/about-content"
 
 export function AboutIndex() {
@@ -17,6 +19,18 @@ export function AboutIndex() {
           </p>
         </div>
       ))}
+      <Link
+        to="/cloud-chat"
+        className="group flex items-center gap-6 p-8 mt-4 rounded-xl border bg-card hover:bg-sidebar-accent transition-colors"
+      >
+        <div className="flex size-16 shrink-0 items-center justify-center rounded-full bg-primary/10">
+          <BotMessageSquare className="size-8 text-primary" />
+        </div>
+        <div className="flex flex-col gap-1">
+          <h3 className="font-title text-2xl">Click to try out the EQx Chatbot</h3>
+          <p className="text-muted-foreground">Ask questions about the Elite Quality Index and get instant answers</p>
+        </div>
+      </Link>
     </div>
   )
 }

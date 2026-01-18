@@ -11,12 +11,6 @@ import {
   InputGroupText,
   InputGroupTextarea,
 } from "@/components/ui/input-group"
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
 import { Separator } from "@/components/ui/separator"
 import { cn } from "@/lib/utils"
 
@@ -99,7 +93,6 @@ function ChatInput({
   centered?: boolean
 }) {
   const [input, setInput] = useState("")
-  const [responseMode, setResponseMode] = useState<"Normal" | "Concise" | "Comprehensive">("Normal")
   const textareaRef = useRef<HTMLTextAreaElement>(null)
 
   const handleSend = () => {
@@ -141,26 +134,9 @@ function ChatInput({
           >
             <PaperclipIcon />
           </InputGroupButton>
-          <DropdownMenu>
-            <DropdownMenuTrigger
-              render={<InputGroupButton variant="ghost">{responseMode}</InputGroupButton>}
-            />
-            <DropdownMenuContent
-              side="top"
-              align="start"
-              className="[--radius:0.95rem]"
-            >
-              <DropdownMenuItem onSelect={() => setResponseMode("Normal")}>
-                Normal
-              </DropdownMenuItem>
-              <DropdownMenuItem onSelect={() => setResponseMode("Concise")}>
-                Concise
-              </DropdownMenuItem>
-              <DropdownMenuItem onSelect={() => setResponseMode("Comprehensive")}>
-                Comprehensive
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
+          <InputGroupButton variant="ghost" disabled>
+            Normal
+          </InputGroupButton>
           <InputGroupText className="ml-auto">powered by gpt-5.1</InputGroupText>
           <Separator orientation="vertical" className="!h-4" />
           <InputGroupButton

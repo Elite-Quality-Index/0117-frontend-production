@@ -1,7 +1,7 @@
 "use client"
 
 import * as React from "react"
-import { useNavigate } from "react-router-dom"
+import { useNavigate, useLocation } from "react-router-dom"
 import {
   BookOpen,
   Bot,
@@ -21,8 +21,29 @@ import {
 import { useAuth } from "@/hooks/use-auth"
 import { useChat } from "@/hooks/use-chat"
 
-const data = {
-  navMain: [
+
+export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
+  const navigate = useNavigate()
+  const location = useLocation()
+  const { user, signOut } = useAuth()
+  const {
+    sessions,
+    sessionsLoading,
+    currentSessionId,
+    handleSelectSession,
+    handleNewSession,
+    handleDeleteSession,
+    clearCurrentSession,
+  } = useChat()
+
+  // Clear session selection when navigating away from cloud-chat
+  React.useEffect(() => {
+    if (!location.pathname.startsWith("/cloud-chat")) {
+      clearCurrentSession()
+    }
+  }, [location.pathname, clearCurrentSession])
+
+  const navMain = [
     {
       title: "About EQx",
       url: "/about",
@@ -42,25 +63,14 @@ const data = {
       title: "Cloud Chat",
       url: "/cloud-chat",
       icon: Bot,
+      onClick: clearCurrentSession,
     },
     {
-      title: "Data",
+      title: "Data Visuals",
       url: "/data-visuals",
       icon: ChartLine,
     },
-  ],
-}
-
-export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
-  const navigate = useNavigate()
-  const { user, signOut } = useAuth()
-  const {
-    sessions,
-    currentSessionId,
-    handleSelectSession,
-    handleNewSession,
-    handleDeleteSession,
-  } = useChat()
+  ]
 
   const handleLogout = async () => {
     await signOut()
@@ -100,10 +110,11 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         />
       </SidebarHeader>
       <SidebarContent>
-        <NavMain items={data.navMain} />
+        <NavMain items={navMain} />
         {user && (
           <NavSessions
             sessions={sessions}
+            sessionsLoading={sessionsLoading}
             currentSessionId={currentSessionId}
             onSelectSession={onSelectSession}
             onNewSession={onNewSession}

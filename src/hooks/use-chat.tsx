@@ -28,6 +28,7 @@ interface SessionState {
 
 interface ChatContextType {
   sessions: Session[]
+  sessionsLoading: boolean
   currentSessionId: string | null
   messages: Message[]
   isStreaming: boolean
@@ -38,6 +39,7 @@ interface ChatContextType {
   handleSelectSession: (sessionId: string) => void
   handleDeleteSession: (sessionId: string) => Promise<void>
   handleSendMessage: (content: string) => Promise<void>
+  clearCurrentSession: () => void
   clearError: () => void
 }
 
@@ -47,6 +49,7 @@ export function ChatProvider({ children }: { children: ReactNode }) {
   const { user, getIdToken } = useAuth()
 
   const [sessions, setSessions] = useState<Session[]>([])
+  const [sessionsLoading, setSessionsLoading] = useState(false)
   const [currentSessionId, setCurrentSessionId] = useState<string | null>(null)
   const [error, setError] = useState<string | null>(null)
 
@@ -95,6 +98,7 @@ export function ChatProvider({ children }: { children: ReactNode }) {
   const isStreaming = currentState.isStreaming
 
   const loadSessions = useCallback(async () => {
+    setSessionsLoading(true)
     try {
       const token = await getIdToken()
       if (!token) return
@@ -102,6 +106,8 @@ export function ChatProvider({ children }: { children: ReactNode }) {
       setSessions(data)
     } catch (err) {
       console.error("Failed to load sessions:", err)
+    } finally {
+      setSessionsLoading(false)
     }
   }, [getIdToken])
 
@@ -361,6 +367,10 @@ export function ChatProvider({ children }: { children: ReactNode }) {
     [getIdToken, currentSessionId, updateSessionState, loadSessions]
   )
 
+  const clearCurrentSession = useCallback(() => {
+    setCurrentSessionId(null)
+  }, [])
+
   const clearError = useCallback(() => {
     setError(null)
   }, [])
@@ -369,6 +379,7 @@ export function ChatProvider({ children }: { children: ReactNode }) {
     <ChatContext.Provider
       value={{
         sessions,
+        sessionsLoading,
         currentSessionId,
         messages,
         isStreaming,
@@ -379,6 +390,7 @@ export function ChatProvider({ children }: { children: ReactNode }) {
         handleSelectSession,
         handleDeleteSession,
         handleSendMessage,
+        clearCurrentSession,
         clearError,
       }}
     >

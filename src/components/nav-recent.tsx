@@ -18,6 +18,7 @@ import type { Session } from "@/lib/api"
 
 interface NavSessionsProps {
   sessions: Session[]
+  sessionsLoading?: boolean
   currentSessionId: string | null
   onSelectSession: (sessionId: string) => void
   onNewSession: () => void
@@ -26,6 +27,7 @@ interface NavSessionsProps {
 
 export function NavSessions({
   sessions,
+  sessionsLoading,
   currentSessionId,
   onSelectSession,
   onNewSession,
@@ -54,7 +56,7 @@ export function NavSessions({
       <SidebarMenu className="gap-1">
         {sessions.length === 0 ? (
           <p className="px-2 py-3 text-center text-sm text-muted-foreground">
-            No conversations yet
+            {sessionsLoading ? "Fetching history sessions..." : "No conversations yet"}
           </p>
         ) : (
           sessions.map((session) => (

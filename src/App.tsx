@@ -9,7 +9,6 @@ import {
 import { AuthProvider } from "@/hooks/use-auth"
 import { ChatProvider } from "@/hooks/use-chat"
 import { DataVisualsProvider } from "@/hooks/use-data-visuals"
-import { Home } from "@/pages/Home"
 import { CloudChat } from "@/pages/CloudChat"
 import { AboutIndex } from "@/pages/AboutIndex"
 import { AboutFoundation } from "@/pages/AboutFoundation"
@@ -33,7 +32,7 @@ function MainLayout() {
           <div className="absolute -bottom-4 left-0 right-0 h-4 bg-gradient-to-b from-background to-transparent pointer-events-none" />
         </header>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<AboutIndex />} />
           <Route path="/about" element={<AboutIndex />} />
           <Route path="/about/index" element={<AboutIndex />} />
           <Route path="/about/foundation" element={<AboutFoundation />} />
